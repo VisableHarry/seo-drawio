@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T03:20:54.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ZsiK3pQUplWCOHMoZ7VZ" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T03:21:00.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="AyS8JwpmHGzArSgzjT_a" version="24.3.1" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1434" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-1" value="data_for_seo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="380" y="380" width="140" height="60" as="geometry" />
+          <mxGeometry x="350" y="204" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tpu-nOGl5Gwn2kse7SGc-2" target="Tpu-nOGl5Gwn2kse7SGc-1">
           <mxGeometry relative="1" as="geometry" />
@@ -37,13 +37,13 @@
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tpu-nOGl5Gwn2kse7SGc-2" target="Tpu-nOGl5Gwn2kse7SGc-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="260" />
-              <mxPoint x="540" y="410" />
+              <mxPoint x="510" y="84" />
+              <mxPoint x="510" y="234" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-2" value="sales_tool_nci&lt;div&gt;(New Commercial Infrastructure)(background)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="380" y="230" width="140" height="60" as="geometry" />
+          <mxGeometry x="350" y="54" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tpu-nOGl5Gwn2kse7SGc-3" target="Tpu-nOGl5Gwn2kse7SGc-4">
           <mxGeometry relative="1" as="geometry" />
@@ -51,31 +51,31 @@
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tpu-nOGl5Gwn2kse7SGc-3" target="Tpu-nOGl5Gwn2kse7SGc-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="270" />
-              <mxPoint x="590" y="270" />
-              <mxPoint x="590" y="425" />
+              <mxPoint x="590" y="94" />
+              <mxPoint x="560" y="94" />
+              <mxPoint x="560" y="249" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-3" value="sales_tool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="620" y="230" width="140" height="60" as="geometry" />
+          <mxGeometry x="590" y="54" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tpu-nOGl5Gwn2kse7SGc-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="480" as="targetPoint" />
+            <mxPoint x="550" y="304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tpu-nOGl5Gwn2kse7SGc-4" target="Tpu-nOGl5Gwn2kse7SGc-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-4" value="sales_logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="620" y="380" width="140" height="60" as="geometry" />
+          <mxGeometry x="590" y="204" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-7" value="api.dataforseo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="510" y="480" width="140" height="60" as="geometry" />
+          <mxGeometry x="480" y="304" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tpu-nOGl5Gwn2kse7SGc-20" value="&lt;div&gt;AuroraRepo(Postgres)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="655" y="585" width="140" height="60" as="geometry" />
+          <mxGeometry x="625" y="409" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
