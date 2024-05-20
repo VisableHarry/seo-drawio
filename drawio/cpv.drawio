@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T06:11:34.903Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MeQY1TF5YoMFG5iZg063" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T06:16:32.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_O60OlPQUbyW2nEoItT7" version="24.4.4" type="github">
   <diagram name="第 1 页" id="mpDOS9dBaBRB9N8fmm2q">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,6 +92,66 @@
         <mxCell id="cuf6Y3lO1OeGZOs419_Y-37" value="until root" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="485" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-38" value="cpv tree" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};container=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="560" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-39" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuf6Y3lO1OeGZOs419_Y-41" target="cuf6Y3lO1OeGZOs419_Y-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-40" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuf6Y3lO1OeGZOs419_Y-41" target="cuf6Y3lO1OeGZOs419_Y-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="root" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-41">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="290" y="610" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="c2" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-45">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="330" y="650" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-51" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuf6Y3lO1OeGZOs419_Y-44" target="cuf6Y3lO1OeGZOs419_Y-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-52" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuf6Y3lO1OeGZOs419_Y-44" target="cuf6Y3lO1OeGZOs419_Y-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="c1" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-44">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="250" y="650" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-55" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuf6Y3lO1OeGZOs419_Y-46" target="cuf6Y3lO1OeGZOs419_Y-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuf6Y3lO1OeGZOs419_Y-56" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuf6Y3lO1OeGZOs419_Y-46" target="cuf6Y3lO1OeGZOs419_Y-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="c11" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-46">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="210" y="680" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="c12" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-47">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="280" y="680" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="c111" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-53">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="170" y="720" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="c112" treeRoot="1" id="cuf6Y3lO1OeGZOs419_Y-54">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="240" y="720" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
