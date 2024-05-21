@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T09:09:10.217Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qULlFAjR79Y0asTHRCfg" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T09:11:56.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="BK059cE2I1y2WLRtaXu_" version="24.4.4" type="github">
   <diagram name="第 1 页" id="1qqWGqqX0jNzk8FhyLNJ">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="70" y="530" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pkuzvF_IylS6FSDwMEXB-17" value="genrate url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="530" width="90" height="30" as="geometry" />
+          <mxGeometry x="570" y="530" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pkuzvF_IylS6FSDwMEXB-18" value="query synonym" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="530" width="90" height="30" as="geometry" />
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="pkuzvF_IylS6FSDwMEXB-30" value="add keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-31" value="add synonym" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="530" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
