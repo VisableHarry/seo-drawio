@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T08:44:21.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Xpb065A2ACPghTepSxKG" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T09:03:55.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xqanx2vdXUnJ9zSaqH1_" version="24.4.4" type="github">
   <diagram name="第 1 页" id="1qqWGqqX0jNzk8FhyLNJ">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,41 @@
         <mxCell id="pkuzvF_IylS6FSDwMEXB-1" value="keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pkuzvF_IylS6FSDwMEXB-2" value="synonyms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="60" width="90" height="30" as="geometry" />
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-2" value="synonym1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-3" value="kw url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-4" value="sy url1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-5" value="synonym2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-6" value="sy url2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-8" value="keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-10" value="genrate url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-11" value="query synonym" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-12" value="generate url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-13" value="add keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-14" value="update synonym" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pkuzvF_IylS6FSDwMEXB-15" value="generate url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
