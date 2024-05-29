@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T09:19:40.493Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Q2tQ2B86Usb2PEdJiOeW" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T09:19:59.699Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="U5_aAanmn2H8HOWf3Q4F" version="24.4.9" type="github">
   <diagram name="第 1 页" id="1qqWGqqX0jNzk8FhyLNJ">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,19 +276,19 @@
         <mxCell id="tmx_ufBkmH5CS0wL-S31-1" value="Strategy Import" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="738" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Na-ZH-uFLh2EzYsE1HA1-1" target="Na-ZH-uFLh2EzYsE1HA1-2">
+        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Na-ZH-uFLh2EzYsE1HA1-1" target="Na-ZH-uFLh2EzYsE1HA1-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-1" value="Manually&amp;nbsp;Update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-1" value="Manually&amp;nbsp;Update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1243" y="1070" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Na-ZH-uFLh2EzYsE1HA1-2" target="Na-ZH-uFLh2EzYsE1HA1-3">
+        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Na-ZH-uFLh2EzYsE1HA1-2" target="Na-ZH-uFLh2EzYsE1HA1-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-2" value="Update DB&lt;div&gt;(Landing Page Relation)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-2" value="Update DB&lt;div&gt;(Landing Page Relation)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1720" y="1060" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-3" value="Refresh Aliyun Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Na-ZH-uFLh2EzYsE1HA1-3" value="Refresh Aliyun Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1840" y="1070" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
