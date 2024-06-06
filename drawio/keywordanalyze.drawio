@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T09:48:40.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="y3792HwAIbjQhx6Af9kK" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T09:50:27.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cRc_gVe6Mn_HmJJmLRa4" version="24.4.14" type="github">
   <diagram name="第 1 页" id="RqyQt31QMLiY9AaMsaX0">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-2" value="Remove Stop keyword" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="210" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hy2gJDIRRrg3xxTgYFUH-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Hy2gJDIRRrg3xxTgYFUH-4" target="Hy2gJDIRRrg3xxTgYFUH-56" edge="1">
+        <mxCell id="7xzq8EvtyxfYBOdDwcCu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hy2gJDIRRrg3xxTgYFUH-4" target="7xzq8EvtyxfYBOdDwcCu-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-4" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -112,14 +112,14 @@
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-55" value="Landing Page Generate Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="35" y="930" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hy2gJDIRRrg3xxTgYFUH-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Hy2gJDIRRrg3xxTgYFUH-56" target="Hy2gJDIRRrg3xxTgYFUH-57" edge="1">
+        <mxCell id="7xzq8EvtyxfYBOdDwcCu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hy2gJDIRRrg3xxTgYFUH-56" target="Hy2gJDIRRrg3xxTgYFUH-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-56" value="Filter Score" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="197.5" y="1000" width="90" height="30" as="geometry" />
+          <mxGeometry x="338" y="1000" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-57" value="Generate Landing Page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="347.5" y="1000" width="90" height="30" as="geometry" />
+          <mxGeometry x="480" y="1000" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Hy2gJDIRRrg3xxTgYFUH-45" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -182,6 +182,12 @@
         </mxCell>
         <mxCell id="7xzq8EvtyxfYBOdDwcCu-6" value="weight=5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="546" y="850" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7xzq8EvtyxfYBOdDwcCu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7xzq8EvtyxfYBOdDwcCu-7" target="Hy2gJDIRRrg3xxTgYFUH-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7xzq8EvtyxfYBOdDwcCu-7" value="Filter Condition(ex: Product Quantity &amp;gt; 29)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="985" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
