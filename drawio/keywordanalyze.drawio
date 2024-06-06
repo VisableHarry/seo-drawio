@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T09:44:42.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cD6pEZ5lNNh5RK-HC3TD" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T09:45:32.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="E-5UwHlYlTJTtwisFgGx" version="24.4.14" type="github">
   <diagram name="第 1 页" id="RqyQt31QMLiY9AaMsaX0">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,16 +157,16 @@
         <mxCell id="Hy2gJDIRRrg3xxTgYFUH-74" value="1-10 Weight" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="546" y="800" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hy2gJDIRRrg3xxTgYFUH-85" value="log(Product Quantity)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+        <mxCell id="Hy2gJDIRRrg3xxTgYFUH-85" value="log(n1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="380" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Hy2gJDIRRrg3xxTgYFUH-86" value="Num of Synonyms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+        <mxCell id="Hy2gJDIRRrg3xxTgYFUH-86" value="n2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="380" y="620" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7xzq8EvtyxfYBOdDwcCu-1" value="10-Num of Dummy Images(when score&amp;lt; 0 then 0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+        <mxCell id="7xzq8EvtyxfYBOdDwcCu-1" value="10-n3&lt;div&gt;(if score&amp;lt;0 then 0)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="380" y="730" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7xzq8EvtyxfYBOdDwcCu-2" value="Num of" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+        <mxCell id="7xzq8EvtyxfYBOdDwcCu-2" value="n4&lt;div&gt;(if score&amp;gt;10 then 10)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="380" y="850" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
