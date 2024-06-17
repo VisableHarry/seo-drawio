@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T08:55:42.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="07Bzryxxz3iLczJ0QXmn" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T08:57:50.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-J35WUNQ054OBefVnw_h" version="24.5.4" type="github">
   <diagram name="第 1 页" id="h08WxK1OJK9P_dThIWVY">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -464,6 +464,9 @@
         <mxCell id="t5pAclPm31vLE0hlIJu8-22" value="Query Product Num" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="2131" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-23" target="t5pAclPm31vLE0hlIJu8-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-23" value="Refresh Desc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="575" y="2090" width="90" height="30" as="geometry" />
         </mxCell>
@@ -490,6 +493,33 @@
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-66" value="Query Internal Links" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="2274" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-81" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;CPV Refresh Task(Every Month)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2610" width="805" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-82" target="t5pAclPm31vLE0hlIJu8-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-82" value="Landing Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-83" target="t5pAclPm31vLE0hlIJu8-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-83" value="Query CPV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-84" target="t5pAclPm31vLE0hlIJu8-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-84" value="Update DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="2680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-85" value="Refresh Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-86" value="Refresh Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2090" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
