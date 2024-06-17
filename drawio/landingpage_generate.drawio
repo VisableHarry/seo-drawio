@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T03:05:06.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="H0I3yhtdMbVFmTs48CYb" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T03:06:11.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="55wXiRojSO1wn-kBZMzN" version="24.5.4" type="github">
   <diagram name="第 1 页" id="h08WxK1OJK9P_dThIWVY">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t5pAclPm31vLE0hlIJu8-14" value="Multi Thread" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2063" width="130" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="ro4CoCY4aHWzKfQ1wyQY-32" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;BackEnd Task(Every 30 Minutes)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="30" y="2190" width="805" height="307" as="geometry" />
         </mxCell>
@@ -409,7 +412,7 @@
           <mxGeometry x="270" y="2090" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-9" value="Generate SiteMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="2090" width="90" height="30" as="geometry" />
+          <mxGeometry x="405" y="2090" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
