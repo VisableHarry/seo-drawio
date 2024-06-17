@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T03:25:34.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="z5CA6ia8Jfa96sNOdYt8" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T03:26:50.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="yKV4jdjz0ihVZKNXERFo" version="24.5.4" type="github">
   <diagram name="第 1 页" id="h08WxK1OJK9P_dThIWVY">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -443,29 +443,50 @@
         <mxCell id="t5pAclPm31vLE0hlIJu8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-18" target="t5pAclPm31vLE0hlIJu8-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-18" target="t5pAclPm31vLE0hlIJu8-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-18" target="t5pAclPm31vLE0hlIJu8-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-18" target="t5pAclPm31vLE0hlIJu8-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-18" value="Limit N(1000)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="302" y="2160" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-22" target="t5pAclPm31vLE0hlIJu8-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-22" target="t5pAclPm31vLE0hlIJu8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-22" value="Query Product Num" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="2110" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-23" value="Refresh Desc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="552" y="2110" width="90" height="30" as="geometry" />
+          <mxGeometry x="610" y="2110" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-50" value="Refresh Score" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="552" y="2160" width="90" height="30" as="geometry" />
+          <mxGeometry x="570" y="2190" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-54" value="Refresh Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="1899" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-56" target="t5pAclPm31vLE0hlIJu8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-56" value="Query Dummy Images" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="2160" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-57" target="t5pAclPm31vLE0hlIJu8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-57" value="Query Keyword Times" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="2210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5pAclPm31vLE0hlIJu8-66" target="t5pAclPm31vLE0hlIJu8-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-66" value="Refresh Synonyms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="2260" width="90" height="30" as="geometry" />
