@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T03:09:38.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eN8qbl6qcDbQ44j3vfb7" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T03:10:38.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="a7O53Uh8ww7CV9XK-VYE" version="24.5.4" type="github">
   <diagram name="第 1 页" id="h08WxK1OJK9P_dThIWVY">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -422,6 +422,24 @@
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-17" value="GmtModified &amp;lt; Yestoday" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="575" y="2070" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-18" value="Limit N(1000)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="2070" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-19" value="Query CPV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="2070" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-20" value="CPV Platform" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="812" y="2120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-21" value="Refresh CPV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2070" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-22" value="Query Keyword Product Num" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="2020" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5pAclPm31vLE0hlIJu8-23" value="Refresh Desc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2020" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
