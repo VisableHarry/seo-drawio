@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T09:39:39.971Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.4" etag="qu7lwrlI4pXx0yHQvF4b" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T09:40:42.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="siHStPTRqQg4NUEPzMep" version="24.5.5" type="github">
   <diagram name="第 1 页" id="OEkk2NK1DtaFm7Vaiwa0">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u9_4qz7kyJqmKmEAL3j5-1" value="Landing Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9_4qz7kyJqmKmEAL3j5-2" value="Landing Page Score Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9_4qz7kyJqmKmEAL3j5-3" value="Landing Page Score Generate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
