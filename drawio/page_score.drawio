@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T10:36:12.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="JQA8mG38OnVjj7oGeVml" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T10:38:09.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cKS-KniUKpy0HeE9pAt7" version="24.5.5" type="github">
   <diagram name="第 1 页" id="OEkk2NK1DtaFm7Vaiwa0">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,8 +168,10 @@
         <mxCell id="_38UN1bSElnnlys52ko4-13" value="Magellan Platform" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="543.5" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_38UN1bSElnnlys52ko4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_38UN1bSElnnlys52ko4-14" target="_38UN1bSElnnlys52ko4-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_38UN1bSElnnlys52ko4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_38UN1bSElnnlys52ko4-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="503.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_38UN1bSElnnlys52ko4-14" value="Get Product Num" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="460.5" width="90" height="30" as="geometry" />
@@ -198,20 +200,21 @@
         <mxCell id="_38UN1bSElnnlys52ko4-22" value="Refresh Synonyms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="410.5" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_38UN1bSElnnlys52ko4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_38UN1bSElnnlys52ko4-23" target="_38UN1bSElnnlys52ko4-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_38UN1bSElnnlys52ko4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_38UN1bSElnnlys52ko4-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="518.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_38UN1bSElnnlys52ko4-23" value="Calculate Dummy Images" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="503.5" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_38UN1bSElnnlys52ko4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_38UN1bSElnnlys52ko4-24" target="_38UN1bSElnnlys52ko4-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_38UN1bSElnnlys52ko4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_38UN1bSElnnlys52ko4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="533.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_38UN1bSElnnlys52ko4-24" value="Calculate Keyword Times" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="543.5" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_38UN1bSElnnlys52ko4-34" value="Refresh Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="503.5" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
