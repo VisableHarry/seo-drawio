@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T09:45:01.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rNrKU1Esj8zKFyXtxj5-" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T09:45:20.813Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="sQA4PYYLbG8H1BcgmjJS" version="24.5.5" type="github">
   <diagram name="第 1 页" id="h08WxK1OJK9P_dThIWVY">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,8 +294,8 @@
         <mxCell id="wpOWByaT0sS5YUf1Cxvb-100" value="Generate SiteMap" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1539" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ro4CoCY4aHWzKfQ1wyQY-1" value="Plan C(8.6 times speed up)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="15" y="1790" width="170" height="30" as="geometry" />
+        <mxCell id="ro4CoCY4aHWzKfQ1wyQY-1" value="Plan C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="1790" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ro4CoCY4aHWzKfQ1wyQY-3" value="Multi Thread" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="250" y="1830" width="490" height="120" as="geometry" />
