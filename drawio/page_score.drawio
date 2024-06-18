@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T10:34:32.292Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fk9VmctPTXl7UC_Jozyg" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T10:36:12.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="JQA8mG38OnVjj7oGeVml" version="24.5.5" type="github">
   <diagram name="第 1 页" id="OEkk2NK1DtaFm7Vaiwa0">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-19" value="CPV Platform" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="317" y="250" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9_4qz7kyJqmKmEAL3j5-25" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Landing Page&amp;nbsp;Refresh Task(Every 30 Minutes)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="u9_4qz7kyJqmKmEAL3j5-25" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Landing Page&amp;nbsp;Score Task(Every 30 Minutes)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="80" y="700" width="805" height="240" as="geometry" />
         </mxCell>
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u9_4qz7kyJqmKmEAL3j5-27" target="u9_4qz7kyJqmKmEAL3j5-29" edge="1">
@@ -94,17 +94,8 @@
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u9_4qz7kyJqmKmEAL3j5-37" target="u9_4qz7kyJqmKmEAL3j5-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u9_4qz7kyJqmKmEAL3j5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u9_4qz7kyJqmKmEAL3j5-37" target="u9_4qz7kyJqmKmEAL3j5-39" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-37" value="Query Product Num" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="479" y="751" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="u9_4qz7kyJqmKmEAL3j5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u9_4qz7kyJqmKmEAL3j5-39" target="u9_4qz7kyJqmKmEAL3j5-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u9_4qz7kyJqmKmEAL3j5-39" value="Refresh Desc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="625" y="710" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-40" value="Refresh Score" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="625" y="820" width="90" height="30" as="geometry" />
@@ -132,9 +123,6 @@
         </mxCell>
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-48" value="Query Internal Links" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="479" y="894" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="u9_4qz7kyJqmKmEAL3j5-49" value="Refresh Cache" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="755" y="710" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9_4qz7kyJqmKmEAL3j5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" parent="1" source="u9_4qz7kyJqmKmEAL3j5-51" target="u9_4qz7kyJqmKmEAL3j5-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
