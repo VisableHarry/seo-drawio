@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T09:43:45.310Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6yDUQ6rNafG0v5Cj8LLp" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T09:45:01.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rNrKU1Esj8zKFyXtxj5-" version="24.5.5" type="github">
   <diagram name="第 1 页" id="h08WxK1OJK9P_dThIWVY">
     <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,7 +356,7 @@
             <mxPoint x="270" y="2045" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t5pAclPm31vLE0hlIJu8-7" value="Filter Score" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+        <mxCell id="t5pAclPm31vLE0hlIJu8-7" value="Filter Condition" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="150" y="2030" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-9" value="Generate SiteMap" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
@@ -541,7 +541,7 @@
             <mxPoint x="995" y="1914" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t5pAclPm31vLE0hlIJu8-96" value="Filter Score" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
+        <mxCell id="t5pAclPm31vLE0hlIJu8-96" value="Filter Condition" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="875" y="1899" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5pAclPm31vLE0hlIJu8-97" value="Generate SiteMap" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
