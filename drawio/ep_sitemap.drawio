@@ -194,7 +194,7 @@
           <mxGeometry x="712" y="740" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-54" value="Showroom" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="820" width="110" height="30" as="geometry" />
+          <mxGeometry x="-30" y="820" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
