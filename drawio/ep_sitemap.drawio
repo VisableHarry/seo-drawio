@@ -200,58 +200,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-56" value="GSC Data&lt;div&gt;(add .com)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="-22.5" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-58" target="Elx_2FQx-1t-T98E23u6-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-58" value="Import Keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="128" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="125.5" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-60" target="Elx_2FQx-1t-T98E23u6-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-60" value="Extend Keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="276" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="273.5" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-62" target="Elx_2FQx-1t-T98E23u6-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-62" value="Filter Num&lt;div&gt;(new api)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="567.5" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-66" target="Elx_2FQx-1t-T98E23u6-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-66" value="Generate Showroom URL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="717" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="714.5" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-72" target="Elx_2FQx-1t-T98E23u6-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-72" value="Showroom Data into Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="865.5" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="863" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-73" value="Generate Sitemap&lt;div&gt;(.com)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1156.5" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="1154" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-78" target="Elx_2FQx-1t-T98E23u6-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-78" value="Filter Date" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1013.5" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="1011" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-81" target="Elx_2FQx-1t-T98E23u6-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-81" value="Refresh Product &amp;amp; Company Num" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="424" y="1060" width="110" height="40" as="geometry" />
+          <mxGeometry x="421.5" y="1000" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Elx_2FQx-1t-T98E23u6-83" target="Elx_2FQx-1t-T98E23u6-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Elx_2FQx-1t-T98E23u6-83" value="SERP Sitemap URL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="950" width="110" height="40" as="geometry" />
+          <mxGeometry x="-22.5" y="890" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
