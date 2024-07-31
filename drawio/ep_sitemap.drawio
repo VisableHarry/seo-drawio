@@ -253,6 +253,9 @@
         <mxCell id="Elx_2FQx-1t-T98E23u6-83" value="SERP Sitemap URL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-22.5" y="810" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xYRVOMm0VYWyI2CqxvXH-2" value="europages.com" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-22.5" y="1070" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
