@@ -274,7 +274,7 @@
         <mxCell id="p9xNys3AeNSs_990_Eo6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9xNys3AeNSs_990_Eo6-9" target="p9xNys3AeNSs_990_Eo6-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p9xNys3AeNSs_990_Eo6-9" value="GSC Data&lt;div&gt;(add .com)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="p9xNys3AeNSs_990_Eo6-9" value="GSC Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-22.5" y="90" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p9xNys3AeNSs_990_Eo6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9xNys3AeNSs_990_Eo6-11" target="p9xNys3AeNSs_990_Eo6-13">
@@ -292,7 +292,7 @@
         <mxCell id="p9xNys3AeNSs_990_Eo6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9xNys3AeNSs_990_Eo6-15" target="p9xNys3AeNSs_990_Eo6-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p9xNys3AeNSs_990_Eo6-15" value="Filter Num&lt;div&gt;(new api)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="p9xNys3AeNSs_990_Eo6-15" value="Filter Num" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="567.5" y="90" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p9xNys3AeNSs_990_Eo6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9xNys3AeNSs_990_Eo6-17" target="p9xNys3AeNSs_990_Eo6-19">
@@ -340,8 +340,14 @@
         <mxCell id="p9xNys3AeNSs_990_Eo6-30" value="Nginx to Front" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="125.5" y="220" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="p9xNys3AeNSs_990_Eo6-31" value="Get Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="p9xNys3AeNSs_990_Eo6-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p9xNys3AeNSs_990_Eo6-31" target="p9xNys3AeNSs_990_Eo6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p9xNys3AeNSs_990_Eo6-31" value="Get Cache Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="273.5" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p9xNys3AeNSs_990_Eo6-32" value="Query Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="220" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
