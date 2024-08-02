@@ -450,6 +450,24 @@
             <mxPoint x="910" y="-330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-30" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-431" width="192" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-31" value="kw1,site=europages.de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-30">
+          <mxGeometry y="30" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-32" value="kw2,site=europages.co.uk" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-30">
+          <mxGeometry y="60" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-33" value="kw3,site=europages.fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-30">
+          <mxGeometry y="90" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185.5" y="-250" as="sourcePoint" />
+            <mxPoint x="235.5" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
