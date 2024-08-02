@@ -390,6 +390,30 @@
         <mxCell id="3KGY3KhJRbdhTMhXbkAO-13" value="kw3,url=europages.com/fr/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-10">
           <mxGeometry y="90" width="265.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="751.5" y="80" as="sourcePoint" />
+            <mxPoint x="801.5" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-15" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-16" value="de,url=europages.com/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-15">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-17" value="en,url=europages.com/showroom/sitemap/ensitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-15">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-18" value="fr,url=europages.com/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-15">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="80" as="sourcePoint" />
+            <mxPoint x="1250" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
