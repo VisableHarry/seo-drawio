@@ -355,238 +355,238 @@
         <mxCell id="p9xNys3AeNSs_990_Eo6-34" value="Before One Platform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-45" y="-491" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KGY3KhJRbdhTMhXbkAO-2" target="3KGY3KhJRbdhTMhXbkAO-3">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3KGY3KhJRbdhTMhXbkAO-2" target="3KGY3KhJRbdhTMhXbkAO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-2" value="Get Cache Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-2" value="Get Cache Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="273.5" y="1060" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-3" value="Query Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-3" value="Query Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="421.5" y="1060" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-5" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-5" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="235.5" y="-100" width="192" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-6" value="kw1,site=europages.com/de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-5">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-6" value="kw1,site=europages.com/de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-5" vertex="1">
           <mxGeometry y="30" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-7" value="kw2,site=europages.com/en" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-5">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-7" value="kw2,site=europages.com/en" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-5" vertex="1">
           <mxGeometry y="60" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-8" value="kw3,site=europages.com/fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-5">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-8" value="kw3,site=europages.com/fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-5" vertex="1">
           <mxGeometry y="90" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="80" as="sourcePoint" />
             <mxPoint x="260" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-10" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-10" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="-100" width="265.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-11" value="kw1,url=europages.com/de/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-10">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-11" value="kw1,url=europages.com/de/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-10" vertex="1">
           <mxGeometry y="30" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-12" value="kw2,url=europages.com/en/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-10">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-12" value="kw2,url=europages.com/en/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-10" vertex="1">
           <mxGeometry y="60" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-13" value="kw3,url=europages.com/fr/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-10">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-13" value="kw3,url=europages.com/fr/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-10" vertex="1">
           <mxGeometry y="90" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="751.5" y="80" as="sourcePoint" />
             <mxPoint x="801.5" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-15" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-15" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="-100" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-16" value="de,url=europages.com/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-15">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-16" value="de,url=europages.com/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-15" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-17" value="en,url=europages.com/showroom/sitemap/ensitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-15">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-17" value="en,url=europages.com/showroom/sitemap/ensitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-15" vertex="1">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-18" value="fr,url=europages.com/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-15">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-18" value="fr,url=europages.com/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-15" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1200" y="80" as="sourcePoint" />
             <mxPoint x="1250" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-20" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-20" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1241" y="-431" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-21" value="de,url=europages.de/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-20">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-21" value="de,url=europages.de/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-20" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-22" value="uk,url=europages.co.uk/showroom/sitemap/uksitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-20">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-22" value="uk,url=europages.co.uk/showroom/sitemap/uksitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-20" vertex="1">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-23" value="fr,url=europages.fr/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-20">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-23" value="fr,url=europages.fr/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-20" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1221.5" y="-250" as="sourcePoint" />
             <mxPoint x="1271.5" y="-300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-25" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-25" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="-370" width="265.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-26" value="kw1,url=europages.de/unternehmen/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-25">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-26" value="kw1,url=europages.de/unternehmen/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-25" vertex="1">
           <mxGeometry y="30" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-27" value="kw2,url=europages.co.uk/companies/kw2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-25">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-27" value="kw2,url=europages.co.uk/companies/kw2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-25" vertex="1">
           <mxGeometry y="60" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-28" value="kw3,url=europages.fr/entreprises/kw3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-25">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-28" value="kw3,url=europages.fr/entreprises/kw3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-25" vertex="1">
           <mxGeometry y="90" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="-311" as="sourcePoint" />
             <mxPoint x="910" y="-330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-30" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-30" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="-431" width="192" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-31" value="kw1,site=europages.de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-30">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-31" value="kw1,site=europages.de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-30" vertex="1">
           <mxGeometry y="30" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-32" value="kw2,site=europages.co.uk" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-30">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-32" value="kw2,site=europages.co.uk" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-30" vertex="1">
           <mxGeometry y="60" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-33" value="kw3,site=europages.fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-30">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-33" value="kw3,site=europages.fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-30" vertex="1">
           <mxGeometry y="90" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="185.5" y="-250" as="sourcePoint" />
             <mxPoint x="235.5" y="-300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-35" value="Import Keywords by Language" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-35" value="Import Keywords by Language" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="125.5" y="510" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-36" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-36" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="222" y="320" width="192" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-37" value="kw1,site=europages.com/de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-36">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-37" value="kw1,site=europages.com/de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-36" vertex="1">
           <mxGeometry y="30" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-38" value="kw2,site=europages.com/en" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-36">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-38" value="kw2,site=europages.com/en" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-36" vertex="1">
           <mxGeometry y="60" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-39" value="kw3,site=europages.com/fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-36">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-39" value="kw3,site=europages.com/fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-36" vertex="1">
           <mxGeometry y="90" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="197.5" y="500" as="sourcePoint" />
             <mxPoint x="247.5" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-41" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-41" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="370" width="265.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-42" value="kw1,url=europages.com/de/unternehmen/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-41">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-42" value="kw1,url=europages.com/de/unternehmen/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-41" vertex="1">
           <mxGeometry y="30" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-43" value="kw2,url=europages.com/en/companies/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-41">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-43" value="kw2,url=europages.com/en/companies/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-41" vertex="1">
           <mxGeometry y="60" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-44" value="kw3,url=europages.com/fr/entreprises/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-41">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-44" value="kw3,url=europages.com/fr/entreprises/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-41" vertex="1">
           <mxGeometry y="90" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-45" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-45" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="440" as="sourcePoint" />
             <mxPoint x="910" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-46" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-46" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1241" y="320" width="349" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-47" value="de,url=europages.com/showroom/sitemap/deserpsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-46">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-47" value="de,url=europages.com/showroom/sitemap/deserpsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-46" vertex="1">
           <mxGeometry y="30" width="349" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-48" value="uk,url=europages.com/showroom/sitemap/ukserpsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-46">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-48" value="uk,url=europages.com/showroom/sitemap/ukserpsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-46" vertex="1">
           <mxGeometry y="60" width="349" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-49" value="fr,url=europages.com/showroom/sitemap/frserpsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-46">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-49" value="fr,url=europages.com/showroom/sitemap/frserpsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-46" vertex="1">
           <mxGeometry y="90" width="349" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1214" y="500" as="sourcePoint" />
             <mxPoint x="1264" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-51" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-51" value="seo_keywords" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245.5" y="740" width="192" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-52" value="kw1,site=europages.com/de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-51">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-52" value="kw1,site=europages.com/de" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-51" vertex="1">
           <mxGeometry y="30" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-53" value="kw2,site=europages.com/en" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-51">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-53" value="kw2,site=europages.com/en" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-51" vertex="1">
           <mxGeometry y="60" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-54" value="kw3,site=europages.com/fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-51">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-54" value="kw3,site=europages.com/fr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-51" vertex="1">
           <mxGeometry y="90" width="192" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="920" as="sourcePoint" />
             <mxPoint x="270" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-56" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-56" value="seo_landingpage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="740" width="265.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-57" value="kw1,url=europages.com/de/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-56">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-57" value="kw1,url=europages.com/de/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-56" vertex="1">
           <mxGeometry y="30" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-58" value="kw2,url=europages.com/en/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-56">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-58" value="kw2,url=europages.com/en/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-56" vertex="1">
           <mxGeometry y="60" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-59" value="kw3,url=europages.com/fr/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-56">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-59" value="kw3,url=europages.com/fr/showroom/kw1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-56" vertex="1">
           <mxGeometry y="90" width="265.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="761.5" y="920" as="sourcePoint" />
             <mxPoint x="811.5" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-61" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-61" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="740" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-62" value="de,url=europages.com/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-61">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-62" value="de,url=europages.com/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-61" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-63" value="en,url=europages.com/showroom/sitemap/ensitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-61">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-63" value="en,url=europages.com/showroom/sitemap/ensitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-61" vertex="1">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-64" value="fr,url=europages.com/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-61">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-64" value="fr,url=europages.com/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3KGY3KhJRbdhTMhXbkAO-61" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-65" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-65" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1210" y="920" as="sourcePoint" />
             <mxPoint x="1260" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-67" value="SERP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-67" value="SERP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-30" y="-461" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KGY3KhJRbdhTMhXbkAO-68" value="SERP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-68" value="SERP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-30" y="310" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
