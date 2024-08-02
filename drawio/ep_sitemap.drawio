@@ -414,6 +414,24 @@
             <mxPoint x="1250" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-20" value="sitemap url" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="-431" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-21" value="de,url=europages.de/showroom/sitemap/desitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-20">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-22" value="uk,url=europages.co.uk/showroom/sitemap/uksitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-20">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-23" value="fr,url=europages.fr/showroom/sitemap/frsitemap.xml" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3KGY3KhJRbdhTMhXbkAO-20">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3KGY3KhJRbdhTMhXbkAO-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=6.27;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1221.5" y="-250" as="sourcePoint" />
+            <mxPoint x="1271.5" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
