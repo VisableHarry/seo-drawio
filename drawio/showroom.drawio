@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="8QHE-VYR7Ac-7rWeXqXU">
-    <mxGraphModel dx="2501" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,8 +67,8 @@
         <mxCell id="p3VlO4Lueq0eT8ngaBwh-16" value="品搜+filter:&lt;div&gt;wlw.de/showroom/kw1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-210" y="160" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p3VlO4Lueq0eT8ngaBwh-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;showroom url:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;wlw.de/showroom/${keyword}(/${location} ) 保留&lt;br&gt;&lt;div&gt;wlw.de/${lang}/showroom/${keyword}(/l-${location})(/s-${supplierType})(/c-${companyProfile})(/p-${page})，lang &amp;amp; keyword 必填&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="20" width="630" height="70" as="geometry" />
+        <mxCell id="p3VlO4Lueq0eT8ngaBwh-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;showroom url:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;wlw.de/showroom/${keyword}(/${location} ) 保留&lt;br&gt;&lt;div&gt;wlw.de/${lang}/showroom/${keyword}(/l-${location})(/s-${supplierType})(/c-${companyProfile})(/p-${page})，lang &amp;amp; keyword 必填&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;demo:&lt;/div&gt;&lt;div&gt;wlw.de/de/showroom/cnc/l-berlin&lt;/div&gt;&lt;div&gt;&lt;div&gt;wlw.de/de/showroom/cnc/s-&lt;span style=&quot;background-color: initial;&quot;&gt;distributor&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;wlw.de/de/showroom/cnc/s-&lt;span style=&quot;background-color: initial;&quot;&gt;distributor/p-1&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wlw.de/de/showroom/cnc/l-berlin/c-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;responseRate/p-1&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-50" width="690" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
