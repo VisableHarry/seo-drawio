@@ -60,11 +60,11 @@
         </mxCell>
         <mxCell id="p3VlO4Lueq0eT8ngaBwh-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-240" y="240" as="sourcePoint" />
-            <mxPoint x="760" y="240" as="targetPoint" />
+            <mxPoint x="-240" y="280" as="sourcePoint" />
+            <mxPoint x="760" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3VlO4Lueq0eT8ngaBwh-16" value="品搜+filter:&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;wlw.de/de/showroom/cnc/s-&lt;span style=&quot;background-color: initial;&quot;&gt;distributor/p-1&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p3VlO4Lueq0eT8ngaBwh-16" value="&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;wlw.de/de/showroom/cnc/s-&lt;span style=&quot;background-color: initial;&quot;&gt;distributor/p-1&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-240" y="140" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p3VlO4Lueq0eT8ngaBwh-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;showroom url:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;wlw.de/showroom/${keyword}(/${location} ) 保留&lt;br&gt;&lt;div&gt;wlw.de/${lang}/showroom/${keyword}(/l-${location})(/s-${supplierType})(/c-${companyProfile})(/p-${page})，lang &amp;amp; keyword 必填&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;demo:&lt;/div&gt;&lt;div&gt;wlw.de/de/showroom/cnc/l-berlin&lt;/div&gt;&lt;div&gt;&lt;div&gt;wlw.de/de/showroom/cnc/s-&lt;span style=&quot;background-color: initial;&quot;&gt;distributor&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;wlw.de/de/showroom/cnc/s-&lt;span style=&quot;background-color: initial;&quot;&gt;distributor/p-1&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wlw.de/de/showroom/cnc/l-berlin/c-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;responseRate/p-1&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -87,7 +87,7 @@
             <mxPoint x="360" y="161" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3VlO4Lueq0eT8ngaBwh-21" value="query data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3VlO4Lueq0eT8ngaBwh-19">
+        <mxCell id="p3VlO4Lueq0eT8ngaBwh-21" value="query product data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3VlO4Lueq0eT8ngaBwh-19">
           <mxGeometry x="0.025" y="1" relative="1" as="geometry">
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
@@ -105,8 +105,8 @@
         </mxCell>
         <mxCell id="p3VlO4Lueq0eT8ngaBwh-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="191" as="sourcePoint" />
-            <mxPoint x="720" y="191" as="targetPoint" />
+            <mxPoint x="360" y="193" as="sourcePoint" />
+            <mxPoint x="720" y="193" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p3VlO4Lueq0eT8ngaBwh-26" value="query product list with filter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3VlO4Lueq0eT8ngaBwh-25">
@@ -123,6 +123,17 @@
         <mxCell id="p3VlO4Lueq0eT8ngaBwh-28" value="write base info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3VlO4Lueq0eT8ngaBwh-27">
           <mxGeometry x="-0.2083" y="-3" relative="1" as="geometry">
             <mxPoint x="-2" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3VlO4Lueq0eT8ngaBwh-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="720" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3VlO4Lueq0eT8ngaBwh-30" value="query supplier list with filter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3VlO4Lueq0eT8ngaBwh-29">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
