@@ -202,7 +202,7 @@
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3VlO4Lueq0eT8ngaBwh-44" value="europages.com/de/showroom/cnc/l-german/s-service%20provider/cat-panels-%20wood/p-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p3VlO4Lueq0eT8ngaBwh-44" value="europages.com/de/showroom/cnc/l-german/s-service%20provider/cat-panels-%20wood/p-1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-240" y="270" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
