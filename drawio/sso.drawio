@@ -92,7 +92,7 @@
             <mxPoint x="440" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-18" value="sso with redirect url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_QA0Hi2sMLjDXKY7Xvy-17">
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-18" value="redirect to sso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_QA0Hi2sMLjDXKY7Xvy-17">
           <mxGeometry x="-0.1412" y="-2" relative="1" as="geometry">
             <mxPoint y="-2" as="offset" />
           </mxGeometry>
