@@ -1,9 +1,58 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="CBPVddgNvEBdZPVZOvJ9">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-1" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="L_QA0Hi2sMLjDXKY7Xvy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="540" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-3" value="Visable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-4" value="Alibaba" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="540" as="sourcePoint" />
+            <mxPoint x="269.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5" y="540" as="sourcePoint" />
+            <mxPoint x="439.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-8" value="Click Visable Link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_QA0Hi2sMLjDXKY7Xvy-7">
+          <mxGeometry x="0.1118" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="100" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-10" value="return https://visable.com?from=Alibaba&amp;amp;isLogin=true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_QA0Hi2sMLjDXKY7Xvy-9">
+          <mxGeometry x="-0.2176" y="-2" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
