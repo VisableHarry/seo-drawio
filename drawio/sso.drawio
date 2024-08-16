@@ -103,10 +103,22 @@
             <mxPoint x="270" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-20" value="redirect with user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_QA0Hi2sMLjDXKY7Xvy-19">
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-20" value="redirect with userid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_QA0Hi2sMLjDXKY7Xvy-19">
           <mxGeometry x="0.0824" y="-7" relative="1" as="geometry">
             <mxPoint y="7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-22" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="420" as="sourcePoint" />
+            <mxPoint x="270" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_QA0Hi2sMLjDXKY7Xvy-23" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;generate cookie with userid&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
