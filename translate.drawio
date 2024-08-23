@@ -31,6 +31,15 @@
         <mxCell id="H-o6Q9arv2Ycfd725hF4-9" value="translate engine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="360" width="510" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="H-o6Q9arv2Ycfd725hF4-10" value="wlw.de" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H-o6Q9arv2Ycfd725hF4-11" value="europages.co.uk/en" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H-o6Q9arv2Ycfd725hF4-12" value="europages.fr/fr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
