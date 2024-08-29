@@ -52,8 +52,14 @@
         <mxCell id="JIK8sXZGodHxqaqUen1i-17" value="关键词&lt;div&gt;MySQL表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="880" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JIK8sXZGodHxqaqUen1i-18" value="关键词导入任务，补全品数、商数、相似词数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="800" width="320" height="40" as="geometry" />
+        <mxCell id="JIK8sXZGodHxqaqUen1i-18" value="EP品搜接口&lt;div&gt;No QPS limit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-19" value="WLW品搜接口&lt;div&gt;100QPS limit&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-20" value="扩词接口&lt;div&gt;HSF&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="800" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
