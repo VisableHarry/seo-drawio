@@ -31,6 +31,30 @@
         <mxCell id="JIK8sXZGodHxqaqUen1i-9" value="意大利语关键词表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="400" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-10" value="EP源关键词&lt;div&gt;ODPS表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="560" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-11" value="WLW源关键词&lt;div&gt;ODPS表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-13" value="合并，对已存在的数据去重，形成增量表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-14" value="WLW源关键词&lt;div&gt;MySQL表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-15" value="EP源关键词&lt;div&gt;MySQL表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="640" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-16" value="关键词导入任务，补全品数、商数、相似词数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-17" value="关键词&lt;div&gt;MySQL表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIK8sXZGodHxqaqUen1i-18" value="关键词导入任务，补全品数、商数、相似词数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="320" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
