@@ -97,7 +97,7 @@
         <mxCell id="JIK8sXZGodHxqaqUen1i-21" value="24W/day" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JIK8sXZGodHxqaqUen1i-22" value="WLW 70W/day&lt;div&gt;EP 160W/day&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JIK8sXZGodHxqaqUen1i-22" value="WLW 35W/day&lt;div&gt;EP 80W/day&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="720" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JIK8sXZGodHxqaqUen1i-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JIK8sXZGodHxqaqUen1i-23" target="JIK8sXZGodHxqaqUen1i-76">
@@ -163,7 +163,7 @@
         <mxCell id="JIK8sXZGodHxqaqUen1i-87" value="英语导入定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="400" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JIK8sXZGodHxqaqUen1i-90" value="160W/day" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JIK8sXZGodHxqaqUen1i-90" value="80W/day" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1680" y="400" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
