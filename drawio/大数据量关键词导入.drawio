@@ -166,17 +166,29 @@
         <mxCell id="JIK8sXZGodHxqaqUen1i-90" value="80W/day" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1680" y="400" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WuUAcV9Ics9sc8fS_I74-1" target="WuUAcV9Ics9sc8fS_I74-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-1" value="5000W 英语关键词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2120" y="80" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuUAcV9Ics9sc8fS_I74-2" target="WuUAcV9Ics9sc8fS_I74-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-2" value="txt上传到OSS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2120" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuUAcV9Ics9sc8fS_I74-3" target="WuUAcV9Ics9sc8fS_I74-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-3" value="生成url，aws get文件后删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2120" y="240" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-4" value="aws运行脚本请求接口，获取商品数量，回传到弹内预发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2120" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-8" value="80W/day" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="320" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
