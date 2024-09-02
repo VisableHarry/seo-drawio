@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="第 1 页" id="2EQmv688gZamet-rj9C1">
-    <mxGraphModel dx="1266" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,7 +167,16 @@
           <mxGeometry x="1680" y="400" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-1" value="5000W 英语关键词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="80" width="160" height="40" as="geometry" />
+          <mxGeometry x="2120" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-2" value="txt上传到OSS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-3" value="生成url，aws get文件后删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WuUAcV9Ics9sc8fS_I74-4" value="aws运行脚本请求接口，获取商品数量，回传到弹内预发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="320" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
