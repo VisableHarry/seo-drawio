@@ -194,7 +194,7 @@
           <mxGeometry x="2120" y="320" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-8" value="80W/day" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="320" width="170" height="40" as="geometry" />
+          <mxGeometry x="2360" y="320" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WuUAcV9Ics9sc8fS_I74-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WuUAcV9Ics9sc8fS_I74-10" target="WuUAcV9Ics9sc8fS_I74-13">
           <mxGeometry relative="1" as="geometry" />
