@@ -383,10 +383,10 @@
         <mxCell id="Z0Q1PTDBPlPPRJHiJqnk-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3120" y="560" width="360" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Z0Q1PTDBPlPPRJHiJqnk-45" value="EP service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z0Q1PTDBPlPPRJHiJqnk-45" value="ocean api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3160" y="630" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Z0Q1PTDBPlPPRJHiJqnk-46" value="AWS staging" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Z0Q1PTDBPlPPRJHiJqnk-46" value="Alibaba staging" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3120" y="560" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z0Q1PTDBPlPPRJHiJqnk-47" value="Alibaba staging" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
