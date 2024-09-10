@@ -1,29 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="STSwXJr2R3Cg8cmrVPv_">
-    <mxGraphModel dx="1266" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d4BILulHISjDFHl3fJtC-1" value="filter : id&amp;gt; lastId&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;amp; old condition&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KZSEV4e5NZ8by4DjpRPQ-2" value="filter : id&amp;gt; lastId&amp;nbsp;&lt;div&gt;&amp;amp; old condition&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="360" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="KZSEV4e5NZ8by4DjpRPQ-3" value="seo_keyword" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="160" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZSEV4e5NZ8by4DjpRPQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KZSEV4e5NZ8by4DjpRPQ-4" target="KZSEV4e5NZ8by4DjpRPQ-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KZSEV4e5NZ8by4DjpRPQ-4" value="seo_landing_page" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KZSEV4e5NZ8by4DjpRPQ-5" value="sitemap url" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KZSEV4e5NZ8by4DjpRPQ-8" value="lastid update to table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="160" width="120" height="40" as="geometry" />
+        <mxCell id="KZSEV4e5NZ8by4DjpRPQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZSEV4e5NZ8by4DjpRPQ-3" target="KZSEV4e5NZ8by4DjpRPQ-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KZSEV4e5NZ8by4DjpRPQ-9" value="lastid update to table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="d4BILulHISjDFHl3fJtC-1" value="filter : gmt_modified&amp;gt;&lt;div&gt;max(time) of landing page&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;amp; old condition&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZSEV4e5NZ8by4DjpRPQ-2" value="delta url + old cached data&lt;div&gt;lastmod=max(date) of gz&#39;s url&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="360" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
