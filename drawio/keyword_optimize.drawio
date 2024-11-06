@@ -10,6 +10,21 @@
         <mxCell id="ZgwYBRZ7Yv_oCQDFEMFJ-2" value="Google Trends" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="50" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-1" value="Google suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-2" value="Internal Link" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-4" value="AI suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-7" value="Keyword category" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-8" value="Keyword distance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
