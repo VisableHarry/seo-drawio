@@ -27,8 +27,14 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-4" value="AI suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="440" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="OpWzETZfZjG-gpqcdHy6-7" target="OpWzETZfZjG-gpqcdHy6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-7" value="Same cate keywords" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="760" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="OpWzETZfZjG-gpqcdHy6-8" target="OpWzETZfZjG-gpqcdHy6-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-8" value="Keyword distance" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="760" y="160" width="120" height="40" as="geometry" />
