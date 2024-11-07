@@ -7,8 +7,8 @@
         <mxCell id="ZgwYBRZ7Yv_oCQDFEMFJ-1" value="Search volume" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZgwYBRZ7Yv_oCQDFEMFJ-2" value="Google search info" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="50" width="110" height="30" as="geometry" />
+        <mxCell id="ZgwYBRZ7Yv_oCQDFEMFJ-2" value="Google search info" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-1" value="Google suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="440" width="120" height="40" as="geometry" />
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-2" value="Related keywords" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-2" value="Related keywords" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-4" value="AI suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -36,7 +36,7 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-9" value="Competition index" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="280" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-11" value="Onsite search info" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-11" value="Onsite search info" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="170" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-12" value="Product quantity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -56,13 +56,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-15" value="CPV info" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fillStyle=auto;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-15" value="CPV info" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fillStyle=auto;gradientColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="290" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-16" value="Predict category" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="80" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-17" value="Internal link" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-17" value="Internal link" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="760" y="50" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-18" value="Related keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
