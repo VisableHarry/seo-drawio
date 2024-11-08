@@ -31,7 +31,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CGiE7vuEJ3qXT8lJ0x0y-6" value="Translate From En(50M*21)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="CGiE7vuEJ3qXT8lJ0x0y-6" value="Translate From EN(50M*21)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="200" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CGiE7vuEJ3qXT8lJ0x0y-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CGiE7vuEJ3qXT8lJ0x0y-7" target="CGiE7vuEJ3qXT8lJ0x0y-8">
