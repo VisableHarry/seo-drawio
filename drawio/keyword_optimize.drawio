@@ -92,6 +92,9 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Warning&lt;/h1&gt;&lt;div&gt;Partial keyword&#39;s data are old, need refresh&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="-70" width="370" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="O7_T1QlpKEXNUx2ZE2-n-1" value="Synonym keywords by translate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
