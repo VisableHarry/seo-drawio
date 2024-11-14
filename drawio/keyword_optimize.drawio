@@ -54,7 +54,7 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-13" value="Company quantity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="280" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-14" value="Relevance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-14" value="Relevance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="480" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;dashed=1;dashPattern=12 12;" parent="1" source="OpWzETZfZjG-gpqcdHy6-15" target="OpWzETZfZjG-gpqcdHy6-7" edge="1">
