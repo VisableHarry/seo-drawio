@@ -27,7 +27,7 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-2" value="Related keywords" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="460" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-4" value="AI suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-4" value="AI suggest keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="280" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" parent="1" source="OpWzETZfZjG-gpqcdHy6-7" target="OpWzETZfZjG-gpqcdHy6-8" edge="1">
@@ -95,7 +95,7 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Warning&lt;/h1&gt;&lt;div&gt;Partial keyword&#39;s data are old, need refresh&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="-70" width="370" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="O7_T1QlpKEXNUx2ZE2-n-1" value="Synonym keywords by translate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="O7_T1QlpKEXNUx2ZE2-n-1" value="Synonym keywords by translate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="480" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QLPklkZy8RkslpNxWZRx-2" value="Keyword Info Complete" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
