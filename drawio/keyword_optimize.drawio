@@ -51,7 +51,7 @@
         <mxCell id="OpWzETZfZjG-gpqcdHy6-12" value="Product quantity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OpWzETZfZjG-gpqcdHy6-13" value="Company quantity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="OpWzETZfZjG-gpqcdHy6-13" value="Company quantity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="280" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OpWzETZfZjG-gpqcdHy6-14" value="Relevance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
