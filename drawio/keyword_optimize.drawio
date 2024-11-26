@@ -104,6 +104,9 @@
         <mxCell id="PvPpvk-Yxe5Tvdq7k4N1-1" value="ODPS calculate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="760" y="360" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="R172kMagoOxk6Mx1gbNo-3" value="Internal link" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="610" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
