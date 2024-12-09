@@ -135,7 +135,7 @@
             <mxPoint x="740" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGmLlZrA64LQWpxoeh4O-40" value="site rule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="VGmLlZrA64LQWpxoeh4O-40" value="single site rule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="800" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VGmLlZrA64LQWpxoeh4O-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGmLlZrA64LQWpxoeh4O-2" target="VGmLlZrA64LQWpxoeh4O-32">
@@ -151,7 +151,7 @@
           <mxGeometry x="700" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VGmLlZrA64LQWpxoeh4O-43" value="user_agent_enum" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="50" width="140" height="120" as="geometry" />
+          <mxGeometry x="800" y="65" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VGmLlZrA64LQWpxoeh4O-44" value="Googlebot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VGmLlZrA64LQWpxoeh4O-43">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -164,6 +164,9 @@
         </mxCell>
         <mxCell id="VGmLlZrA64LQWpxoeh4O-58" value="merge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="318" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGmLlZrA64LQWpxoeh4O-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGmLlZrA64LQWpxoeh4O-34" target="VGmLlZrA64LQWpxoeh4O-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
