@@ -97,6 +97,19 @@
         <mxCell id="VGmLlZrA64LQWpxoeh4O-28" value="Planing" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="640" y="-90" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="VGmLlZrA64LQWpxoeh4O-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VGmLlZrA64LQWpxoeh4O-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGmLlZrA64LQWpxoeh4O-1" target="VGmLlZrA64LQWpxoeh4O-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="250" />
+              <mxPoint x="610" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
