@@ -160,6 +160,9 @@
         <mxCell id="VGmLlZrA64LQWpxoeh4O-60" value="allow enum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="600" y="320" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="VGmLlZrA64LQWpxoeh4O-63" value="allow enum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
