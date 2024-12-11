@@ -160,13 +160,13 @@
         <mxCell id="VGmLlZrA64LQWpxoeh4O-60" value="allow enum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="600" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pyfWFypuzCa8Q7GXb068-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGmLlZrA64LQWpxoeh4O-63" target="VGmLlZrA64LQWpxoeh4O-42">
+        <mxCell id="pyfWFypuzCa8Q7GXb068-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VGmLlZrA64LQWpxoeh4O-63" target="VGmLlZrA64LQWpxoeh4O-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VGmLlZrA64LQWpxoeh4O-63" value="extra allow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="760" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pyfWFypuzCa8Q7GXb068-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;robots.txt&lt;/h1&gt;&lt;pre&gt;User-agent: *&lt;br&gt;Disallow: /&lt;/pre&gt;&lt;pre&gt;&lt;br&gt;User-agent: Googlebot&lt;br&gt;Allow: /en/companies/&lt;br&gt;Allow: /en/search/&lt;br&gt;Allow: /en/showroom/&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pyfWFypuzCa8Q7GXb068-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;robots.txt&lt;/h1&gt;&lt;pre style=&quot;line-height: 10%;&quot;&gt;User-agent: *&lt;/pre&gt;&lt;pre style=&quot;line-height: 10%;&quot;&gt;Disallow: /&lt;/pre&gt;&lt;pre style=&quot;line-height: 10%;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;line-height: 10%;&quot;&gt;User-agent: Googlebot&lt;/pre&gt;&lt;pre style=&quot;line-height: 10%;&quot;&gt;&lt;pre&gt;Disallow: /&lt;/pre&gt;&lt;pre&gt;Allow: /en/companies/&lt;/pre&gt;&lt;pre&gt;Allow: /en/search/&lt;/pre&gt;Allow: /en/showroom/&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="240" width="180" height="200" as="geometry" />
         </mxCell>
       </root>
