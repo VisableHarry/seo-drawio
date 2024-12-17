@@ -54,6 +54,14 @@
             <mxPoint x="-8" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OePDqjrf2KnO5LCEMTXo-57" value="5. trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Q0krdsWyiELvTqHaa9v-6" target="OePDqjrf2KnO5LCEMTXo-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="340" />
+              <mxPoint x="500" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8Q0krdsWyiELvTqHaa9v-6" value="Nodejs script" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="120" height="40" as="geometry" />
         </mxCell>
@@ -68,11 +76,11 @@
             <mxPoint x="-4" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OePDqjrf2KnO5LCEMTXo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Q0krdsWyiELvTqHaa9v-8" target="8Q0krdsWyiELvTqHaa9v-6">
+        <mxCell id="OePDqjrf2KnO5LCEMTXo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Q0krdsWyiELvTqHaa9v-8" target="8Q0krdsWyiELvTqHaa9v-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="340" />
-              <mxPoint x="330" y="340" />
+              <mxPoint x="300" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -83,14 +91,6 @@
         </mxCell>
         <mxCell id="8Q0krdsWyiELvTqHaa9v-8" value="vseo controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="360" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OePDqjrf2KnO5LCEMTXo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Q0krdsWyiELvTqHaa9v-9" target="OePDqjrf2KnO5LCEMTXo-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OePDqjrf2KnO5LCEMTXo-15" value="5. send" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OePDqjrf2KnO5LCEMTXo-14">
-          <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="OePDqjrf2KnO5LCEMTXo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="8Q0krdsWyiELvTqHaa9v-9" target="8Q0krdsWyiELvTqHaa9v-10">
           <mxGeometry relative="1" as="geometry">
@@ -172,7 +172,7 @@
         <mxCell id="8Q0krdsWyiELvTqHaa9v-16" value="keyword import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OePDqjrf2KnO5LCEMTXo-13" value="keyword message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="OePDqjrf2KnO5LCEMTXo-13" value="task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="440" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OePDqjrf2KnO5LCEMTXo-18" value="ready keyword" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
