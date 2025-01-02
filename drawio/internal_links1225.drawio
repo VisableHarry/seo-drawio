@@ -102,6 +102,55 @@
         <mxCell id="No4g82Whn9Lu0QJXy-N2-15" value="CSERP Keywords" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="420" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-8" value="keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Url5Zu-6LV8npw6_dzej-10" target="Url5Zu-6LV8npw6_dzej-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="898" />
+              <mxPoint x="280" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-16" value="all" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-15">
+          <mxGeometry x="0.0207" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Url5Zu-6LV8npw6_dzej-10" target="Url5Zu-6LV8npw6_dzej-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-18" value="low competition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-17">
+          <mxGeometry x="0.05" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Url5Zu-6LV8npw6_dzej-10" target="Url5Zu-6LV8npw6_dzej-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="913" />
+              <mxPoint x="280" y="985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-20" value="high competition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-19">
+          <mxGeometry x="-0.2104" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-10" value="relate keywords" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-11" value="CSERP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="810" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-12" value="PSERP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Url5Zu-6LV8npw6_dzej-13" value="Showroom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="970" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
