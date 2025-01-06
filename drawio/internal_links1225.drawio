@@ -200,7 +200,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZS4T2gyKXLXTp4NsAqUT-2" value="low competition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-15">
+        <mxCell id="ZS4T2gyKXLXTp4NsAqUT-2" value="all" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-15">
           <mxGeometry x="0.5961" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -213,9 +213,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZS4T2gyKXLXTp4NsAqUT-1" value="all" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-17">
+        <mxCell id="ZS4T2gyKXLXTp4NsAqUT-1" value="low competition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Url5Zu-6LV8npw6_dzej-17">
           <mxGeometry x="0.6537" y="-1" relative="1" as="geometry">
-            <mxPoint x="-29" as="offset" />
+            <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Url5Zu-6LV8npw6_dzej-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Url5Zu-6LV8npw6_dzej-10" target="Url5Zu-6LV8npw6_dzej-13" edge="1">
