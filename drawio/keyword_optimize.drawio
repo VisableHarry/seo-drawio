@@ -306,8 +306,8 @@
             <mxPoint x="50" y="1238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XP9X3RCGj3QsMXJREhf8-32" value="Internal link" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-280" y="1169" width="110" height="30" as="geometry" />
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-32" value="Keyword Description" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1169" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XP9X3RCGj3QsMXJREhf8-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
