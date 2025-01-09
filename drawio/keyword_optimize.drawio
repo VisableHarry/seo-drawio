@@ -327,11 +327,23 @@
             <mxPoint x="209.5" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-37" target="XP9X3RCGj3QsMXJREhf8-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XP9X3RCGj3QsMXJREhf8-37" value="api.visable.io" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="1600" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-38" target="XP9X3RCGj3QsMXJREhf8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XP9X3RCGj3QsMXJREhf8-38" value="alibaba cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="1600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-39" target="XP9X3RCGj3QsMXJREhf8-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-39" target="XP9X3RCGj3QsMXJREhf8-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XP9X3RCGj3QsMXJREhf8-39" value="seo-landingpage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1600" width="120" height="40" as="geometry" />
@@ -340,7 +352,7 @@
           <mxGeometry x="360" y="1600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XP9X3RCGj3QsMXJREhf8-41" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1600" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="1680" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
