@@ -225,6 +225,108 @@
             <mxPoint x="50" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-2" target="XP9X3RCGj3QsMXJREhf8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-2" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1218" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-3" value="Description" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1218" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-5" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1320" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-9" value="Keyword Rewrite &amp;amp; Filter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-12" target="XP9X3RCGj3QsMXJREhf8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-11" value="Get" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP9X3RCGj3QsMXJREhf8-10">
+          <mxGeometry x="0.15" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-12" value="Aliyun MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1480" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-15" target="XP9X3RCGj3QsMXJREhf8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-14" value="Visit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP9X3RCGj3QsMXJREhf8-13">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-15" value="User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1218" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-18" target="XP9X3RCGj3QsMXJREhf8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-17" value="Not exist, query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP9X3RCGj3QsMXJREhf8-16">
+          <mxGeometry x="0.0452" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-18" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1298" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-25" target="XP9X3RCGj3QsMXJREhf8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-20" value="Async Cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP9X3RCGj3QsMXJREhf8-19">
+          <mxGeometry x="-0.165" relative="1" as="geometry">
+            <mxPoint y="44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP9X3RCGj3QsMXJREhf8-25" target="XP9X3RCGj3QsMXJREhf8-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1500" />
+              <mxPoint x="720" y="1238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-24" value="Return Internal Link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XP9X3RCGj3QsMXJREhf8-23">
+          <mxGeometry x="0.3372" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-25" value="Description" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-30" value="PG Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1218" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="1237.5" as="sourcePoint" />
+            <mxPoint x="50" y="1238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-32" value="Internal link" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1280" as="sourcePoint" />
+            <mxPoint x="209.5" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1360" as="sourcePoint" />
+            <mxPoint x="209.5" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP9X3RCGj3QsMXJREhf8-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1440" as="sourcePoint" />
+            <mxPoint x="209.5" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
