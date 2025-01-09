@@ -216,22 +216,13 @@
         <mxCell id="SXK19-3dQCqhiTptEsW_-21" value="Relate Keywords" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P3ZBpjZqTPr8CXKGYrLp-1" value="PG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P3ZBpjZqTPr8CXKGYrLp-1" value="PG Data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="680" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P3ZBpjZqTPr8CXKGYrLp-2" value="ODPS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="760" width="300" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="P3ZBpjZqTPr8CXKGYrLp-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="P3ZBpjZqTPr8CXKGYrLp-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-140.5" y="720" as="sourcePoint" />
-            <mxPoint x="-140.5" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="P3ZBpjZqTPr8CXKGYrLp-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="779.5" as="sourcePoint" />
-            <mxPoint x="60" y="779.5" as="targetPoint" />
+            <mxPoint x="10" y="699.5" as="sourcePoint" />
+            <mxPoint x="50" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
