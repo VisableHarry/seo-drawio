@@ -1274,7 +1274,7 @@
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-423" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-337" target="7Xz4EL3dT2qsOErIy4jS-422">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-425" value="Calculate Keyword Link Position Weight:&lt;div&gt;sum(Link Position Weight)/sum(Keyword Total Weight)*Keyword Total Weight&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Xz4EL3dT2qsOErIy4jS-423">
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-425" value="Calculate Keyword Link Position Weight:&lt;div&gt;reduce keywords when min(kw weight)&amp;gt;=min(link pos weight)&lt;br&gt;&lt;div&gt;sum(link pos weight)/sum(kw weight)*kw weight&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Xz4EL3dT2qsOErIy4jS-423">
           <mxGeometry x="0.2835" y="1" relative="1" as="geometry">
             <mxPoint x="-45" y="-19" as="offset" />
           </mxGeometry>
