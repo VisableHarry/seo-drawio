@@ -57,13 +57,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-5" value="Extend+Trend Keywords&lt;div&gt;vs Trends vs Importance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="520" width="160" height="40" as="geometry" />
+          <mxGeometry x="80" y="560" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-6" value="Keyword Distitance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-15" value="Filter Keywords vs Position vs Trends vs Importance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="800" width="160" height="40" as="geometry" />
+          <mxGeometry x="80" y="880" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-200" y="160" width="110" height="40" as="geometry" />
@@ -236,7 +236,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-180" value="Extend+Trend Keywords&lt;div&gt;vs Trends vs Importance vs Position&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="640" width="160" height="50" as="geometry" />
+          <mxGeometry x="80" y="720" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-47" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-200" y="360" width="180" height="160" as="geometry" />
