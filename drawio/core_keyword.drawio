@@ -4,11 +4,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-1" value="Core Keywords" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="120" height="40" as="geometry" />
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-1" target="7Xz4EL3dT2qsOErIy4jS-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-2" value="Prefix &amp;amp; Suffix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="160" width="120" height="40" as="geometry" />
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-10" value="Suffix &amp;amp; Preffix" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Xz4EL3dT2qsOErIy4jS-9">
+          <mxGeometry x="0.15" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-1" value="Core Keywords&amp;nbsp;&lt;div&gt;vs Importance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-2" target="7Xz4EL3dT2qsOErIy4jS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-12" value="Google Keyword Planner" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Xz4EL3dT2qsOErIy4jS-11">
+          <mxGeometry x="-0.225" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-2" value="Extend Keywords&amp;nbsp;&lt;div&gt;vs Importance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-3" value="Google Keyword Planner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-4" target="7Xz4EL3dT2qsOErIy4jS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-14" value="Keyword Distance Filter:&lt;div&gt;Differ Words Num &amp;lt; 3&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Xz4EL3dT2qsOErIy4jS-13">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-4" value="Trend Keywords&amp;nbsp;&lt;div&gt;vs Trends vs Importance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-5" target="7Xz4EL3dT2qsOErIy4jS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-17" value="Position Asc, Trends Desc&lt;div&gt;&amp;nbsp;Pick First&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Xz4EL3dT2qsOErIy4jS-16">
+          <mxGeometry x="-0.2875" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-5" value="Transfered Keywords&lt;div&gt;vs Trends vs Importance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-6" value="Keyword Distitance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-15" value="Filter Keywords vs Position vs Trends vs Importance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
