@@ -854,7 +854,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-220" value="Distinct Pages vs Top Monthly Clicks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-220" value="Group Pages vs Monthly Clicks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-223" value="Distinct Pages vs Weight" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -922,26 +922,26 @@
           <mxGeometry width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-243" value="url1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-242">
-          <mxGeometry width="70" height="20" as="geometry">
-            <mxRectangle width="70" height="20" as="alternateBounds" />
+          <mxGeometry width="40" height="20" as="geometry">
+            <mxRectangle width="40" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-244" value="clicks1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-242">
-          <mxGeometry x="70" width="60" height="20" as="geometry">
-            <mxRectangle width="60" height="20" as="alternateBounds" />
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-244" value="clicks1+clicks2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-242">
+          <mxGeometry x="40" width="90" height="20" as="geometry">
+            <mxRectangle width="90" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-248" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-241">
           <mxGeometry y="20" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-249" value="url2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-248">
-          <mxGeometry width="70" height="20" as="geometry">
-            <mxRectangle width="70" height="20" as="alternateBounds" />
+          <mxGeometry width="40" height="20" as="geometry">
+            <mxRectangle width="40" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-250" value="clicks4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-248">
-          <mxGeometry x="70" width="60" height="20" as="geometry">
-            <mxRectangle width="60" height="20" as="alternateBounds" />
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-250" value="clicks3+clicks4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="7Xz4EL3dT2qsOErIy4jS-248">
+          <mxGeometry x="40" width="90" height="20" as="geometry">
+            <mxRectangle width="90" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-254" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
@@ -1215,6 +1215,9 @@
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-337" value="Filter Keywords vs Importance&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vs Trends&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;vs Position&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;vs Campaign vs Total Weight&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-339" value="Distinct Pages vs Weight vs&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
