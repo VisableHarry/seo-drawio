@@ -1804,6 +1804,9 @@
             <mxRectangle width="90" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-488" value="ex:&lt;div&gt;kw_ex1 w=4&lt;/div&gt;&lt;div&gt;kw_ex2 w=5&lt;/div&gt;&lt;div&gt;url_pos1 w=1&lt;/div&gt;&lt;div&gt;url_pos2 w=3&lt;/div&gt;&lt;div&gt;url_pos3 w=2&lt;/div&gt;&lt;div&gt;url_pos4 w=3&lt;/div&gt;&lt;div&gt;then:&lt;/div&gt;&lt;div&gt;url_pos1=kw_ex1&lt;/div&gt;&lt;div&gt;url_pos2=kw_ex1&lt;/div&gt;&lt;div&gt;url_pos3=kw_ex2&lt;/div&gt;&lt;div&gt;url_pos4=kw_ex2&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="782" y="950" width="120" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
