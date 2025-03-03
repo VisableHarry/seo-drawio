@@ -2175,25 +2175,25 @@
           <mxGeometry x="-10" y="-80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-516" value="User" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1970" y="390" width="120" height="50" as="geometry" />
+          <mxGeometry x="1800" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-517" value="CSERP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1970" y="520" width="120" height="50" as="geometry" />
+          <mxGeometry x="1800" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-518" value="PSERP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2130" y="520" width="120" height="50" as="geometry" />
+          <mxGeometry x="1960" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-519" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="520" width="120" height="50" as="geometry" />
+          <mxGeometry x="2120" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-520" value="CPP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2450" y="520" width="120" height="50" as="geometry" />
+          <mxGeometry x="2280" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-521" value="Showroom" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2771" y="520" width="120" height="50" as="geometry" />
+          <mxGeometry x="2601" y="200" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-522" value="HomePage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2610" y="520" width="120" height="50" as="geometry" />
+          <mxGeometry x="2440" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8toNQD8QST1rocxcnVbk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-523" target="8toNQD8QST1rocxcnVbk-68">
           <mxGeometry relative="1" as="geometry" />
