@@ -2365,7 +2365,7 @@
         <mxCell id="8toNQD8QST1rocxcnVbk-113" value="Inside-Business Internal Link Get &amp;amp; Content Change" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1850" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8toNQD8QST1rocxcnVbk-114" value="PSERP,PDP,&lt;div&gt;CPP,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;HomePage&amp;nbsp;&lt;/span&gt;&lt;div&gt;Internal Link Get &amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Content Change&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="8toNQD8QST1rocxcnVbk-114" value="SERP,PDP,&lt;div&gt;CPP,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;HomePage&amp;nbsp;&lt;/span&gt;&lt;div&gt;Internal Link Get &amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Content Change&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2220" y="340" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8toNQD8QST1rocxcnVbk-115" value="Rule Check by Sales" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
