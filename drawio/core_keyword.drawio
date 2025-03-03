@@ -2201,8 +2201,8 @@
         <mxCell id="8toNQD8QST1rocxcnVbk-63" value="Link Position vs&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Keyword&amp;nbsp;&lt;/span&gt;&lt;div&gt;vs Link Position Weight&lt;div&gt;&amp;nbsp;vs Keyword Link Position Weight&lt;/div&gt;&lt;/div&gt;&lt;div&gt;vs Keyword Url vs TDK&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="880" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8toNQD8QST1rocxcnVbk-67" value="Keyword &amp;amp; Internal Link Generate" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="50" width="200" height="30" as="geometry" />
+        <mxCell id="8toNQD8QST1rocxcnVbk-67" value="&lt;b&gt;Keyword &amp;amp; Internal Link Generate&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="50" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
