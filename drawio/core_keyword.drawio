@@ -1961,11 +1961,19 @@
             <mxRectangle width="30" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8toNQD8QST1rocxcnVbk-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-450" target="8toNQD8QST1rocxcnVbk-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8toNQD8QST1rocxcnVbk-65" value="Change TDK&lt;div&gt;Url Display as Keyword,&lt;/div&gt;&lt;div&gt;TDK Change as Keyword Extend&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8toNQD8QST1rocxcnVbk-64">
+          <mxGeometry x="-0.1111" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-450" value="Link Position vs&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Keyword&amp;nbsp;&lt;/span&gt;&lt;div&gt;vs Link Position Weight&lt;div&gt;&amp;nbsp;vs Keyword Link Position Weight&lt;/div&gt;&lt;/div&gt;&lt;div&gt;vs Keyword Url&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="880" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-455" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="880" width="390" height="80" as="geometry" />
+          <mxGeometry x="760" y="960" width="390" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-456" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="7Xz4EL3dT2qsOErIy4jS-455" vertex="1">
           <mxGeometry width="390" height="20" as="geometry" />
@@ -2140,7 +2148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-488" value="ex:&lt;div&gt;kw_ex1 w=4&lt;/div&gt;&lt;div&gt;kw_ex2 w=5&lt;/div&gt;&lt;div&gt;url_pos1 w=1&lt;/div&gt;&lt;div&gt;url_pos2 w=3&lt;/div&gt;&lt;div&gt;url_pos3 w=2&lt;/div&gt;&lt;div&gt;url_pos4 w=3&lt;/div&gt;&lt;div&gt;then:&lt;/div&gt;&lt;div&gt;url_pos1=kw_ex1&lt;/div&gt;&lt;div&gt;url_pos2=kw_ex1&lt;/div&gt;&lt;div&gt;url_pos3=kw_ex2&lt;/div&gt;&lt;div&gt;url_pos4=kw_ex2&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="782" y="950" width="120" height="190" as="geometry" />
+          <mxGeometry x="760" y="1040" width="120" height="190" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-503" value="BA Rule+&lt;div&gt;Sales Rule&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="310" y="200" width="120" height="80" as="geometry" />
@@ -2182,10 +2190,13 @@
           <mxGeometry x="1760" y="840" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-523" value="Inside-Business" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="840" width="120" height="50" as="geometry" />
+          <mxGeometry x="1560" y="960" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-531" value="Add Url for Keyword&lt;div&gt;The Keyword&#39;s Url should change TDK&lt;br&gt;&lt;div&gt;Add Internal Links Get Logic for Each Page&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Internal Links display as keyword&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-135" y="1508" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8toNQD8QST1rocxcnVbk-63" value="Link Position vs&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Keyword&amp;nbsp;&lt;/span&gt;&lt;div&gt;vs Link Position Weight&lt;div&gt;&amp;nbsp;vs Keyword Link Position Weight&lt;/div&gt;&lt;/div&gt;&lt;div&gt;vs Keyword Url vs TDK&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="880" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
