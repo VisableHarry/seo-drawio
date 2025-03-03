@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8toNQD8QST1rocxcnVbk-77" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="80" width="200" height="480" as="geometry" />
+        </mxCell>
         <mxCell id="8toNQD8QST1rocxcnVbk-66" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-360" y="80" width="1750" height="1360" as="geometry" />
         </mxCell>
@@ -2234,6 +2237,9 @@
         </mxCell>
         <mxCell id="8toNQD8QST1rocxcnVbk-70" value="Keyword vs Article vs Sales Keyword Url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8toNQD8QST1rocxcnVbk-78" value="&lt;b&gt;Inside-Business Internal Link Generate&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="50" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
