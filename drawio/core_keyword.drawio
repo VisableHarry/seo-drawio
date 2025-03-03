@@ -2260,7 +2260,15 @@
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-531" value="Add Url for Keyword&lt;div&gt;The Keyword&#39;s Url should change TDK&lt;br&gt;&lt;div&gt;Add Internal Links Get Logic for Each Page&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Internal Links display as keyword&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-135" y="1508" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8toNQD8QST1rocxcnVbk-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8toNQD8QST1rocxcnVbk-63" target="8toNQD8QST1rocxcnVbk-70">
+        <mxCell id="8toNQD8QST1rocxcnVbk-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8toNQD8QST1rocxcnVbk-63" target="8toNQD8QST1rocxcnVbk-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="910" />
+              <mxPoint x="1720" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8toNQD8QST1rocxcnVbk-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8toNQD8QST1rocxcnVbk-63" target="8toNQD8QST1rocxcnVbk-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8toNQD8QST1rocxcnVbk-63" value="Link Position vs&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Keyword&amp;nbsp;&lt;/span&gt;&lt;div&gt;vs Link Position Weight&lt;div&gt;&amp;nbsp;vs Keyword Link Position Weight&lt;/div&gt;&lt;/div&gt;&lt;div&gt;vs Keyword Url vs TDK&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
