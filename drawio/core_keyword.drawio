@@ -2353,7 +2353,7 @@
         <mxCell id="8toNQD8QST1rocxcnVbk-98" value="Inside-Business" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1740" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8toNQD8QST1rocxcnVbk-101" value="Display Keyword&amp;nbsp;vs Internal Link Url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8toNQD8QST1rocxcnVbk-101" value="Display Keyword&amp;nbsp;vs Internal Link Url" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1740" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8toNQD8QST1rocxcnVbk-107" value="&lt;b&gt;User Visit&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
