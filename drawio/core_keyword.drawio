@@ -2334,7 +2334,7 @@
         <mxCell id="8toNQD8QST1rocxcnVbk-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8toNQD8QST1rocxcnVbk-98" target="8toNQD8QST1rocxcnVbk-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8toNQD8QST1rocxcnVbk-103" value="Display in Article" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8toNQD8QST1rocxcnVbk-102">
+        <mxCell id="8toNQD8QST1rocxcnVbk-103" value="Display in Article as Ancher Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8toNQD8QST1rocxcnVbk-102">
           <mxGeometry x="0.05" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
