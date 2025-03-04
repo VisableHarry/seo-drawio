@@ -150,8 +150,8 @@
             <mxRectangle width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-180" value="Extend+Trend Keywords&lt;div&gt;vs Importance&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;vs Trends&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;vs Rank&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 181, 112);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;vs Campaign&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;Cost&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="755" width="160" height="50" as="geometry" />
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-180" value="Extend Keywords&lt;div&gt;vs Importance&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;vs Trends&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;vs&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Competition vs&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Rank&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(255, 181, 112);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;vs Campaign&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;Cost&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="740" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-47" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-320" y="380" width="280" height="80" as="geometry" />
@@ -889,8 +889,8 @@
             <mxPoint x="-41" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Xz4EL3dT2qsOErIy4jS-337" value="Filter Keywords vs Importance&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vs Trends&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;vs Rank&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 181, 112), rgb(255, 255, 255));&quot;&gt;vs Campaign Cost&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt; vs Total Weight&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="940" width="160" height="60" as="geometry" />
+        <mxCell id="7Xz4EL3dT2qsOErIy4jS-337" value="Extend Keywords vs Importance&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vsTrends&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;vs&amp;nbsp;&lt;/span&gt;&lt;div&gt;Competition&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vs Rank&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 181, 112), rgb(255, 255, 255));&quot;&gt;vs Campaign Cost&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vs Total Weight&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="940" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7Xz4EL3dT2qsOErIy4jS-339" target="7Xz4EL3dT2qsOErIy4jS-363" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1136,7 +1136,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7Xz4EL3dT2qsOErIy4jS-422" value="Keyword&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;vs&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Keyword Link Position Weight&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="990" width="160" height="60" as="geometry" />
+          <mxGeometry x="500" y="1000" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zXx96FTG_lg0kcmIFyQ1-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Xz4EL3dT2qsOErIy4jS-450" target="8toNQD8QST1rocxcnVbk-70">
           <mxGeometry relative="1" as="geometry" />
@@ -1753,7 +1753,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zXx96FTG_lg0kcmIFyQ1-43" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="290" y="980" width="190" height="80" as="geometry" />
+          <mxGeometry x="290" y="990" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zXx96FTG_lg0kcmIFyQ1-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="zXx96FTG_lg0kcmIFyQ1-43">
           <mxGeometry width="190" height="20" as="geometry" />
