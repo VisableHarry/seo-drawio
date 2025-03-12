@@ -22,7 +22,7 @@
         <mxCell id="NYBcfCHsHQt-t8gGjb96-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYBcfCHsHQt-t8gGjb96-4" target="NYBcfCHsHQt-t8gGjb96-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-4" value="Check &amp;amp; Import" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-4" value="Check &amp;amp; Import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYBcfCHsHQt-t8gGjb96-5" value="Mannual Trigger" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -38,7 +38,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-6" value="Page &amp;amp; Click &amp;amp; Internal Link Num" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-6" value="Page &amp;amp; Click &amp;amp; Internal Link Num" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYBcfCHsHQt-t8gGjb96-7" value="Auto" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -47,7 +47,7 @@
         <mxCell id="NYBcfCHsHQt-t8gGjb96-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYBcfCHsHQt-t8gGjb96-8" target="NYBcfCHsHQt-t8gGjb96-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-8" value="Ranking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-8" value="Ranking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYBcfCHsHQt-t8gGjb96-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYBcfCHsHQt-t8gGjb96-9" target="NYBcfCHsHQt-t8gGjb96-10">
