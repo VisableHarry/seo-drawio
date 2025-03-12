@@ -53,19 +53,19 @@
         <mxCell id="NYBcfCHsHQt-t8gGjb96-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYBcfCHsHQt-t8gGjb96-9" target="NYBcfCHsHQt-t8gGjb96-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-9" value="Trends,Competition&lt;div&gt;,CPC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-9" value="Trends,Competition&lt;div&gt;,CPC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYBcfCHsHQt-t8gGjb96-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYBcfCHsHQt-t8gGjb96-10" target="NYBcfCHsHQt-t8gGjb96-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-10" value="Match &amp;amp; Save" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-10" value="Match &amp;amp; Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="560" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-12" value="API Get" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-12" value="API Get" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="720" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NYBcfCHsHQt-t8gGjb96-13" value="Ranking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="NYBcfCHsHQt-t8gGjb96-13" value="Ranking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
