@@ -117,13 +117,19 @@
           <mxGeometry x="600" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UkzblR-_nwrGP0QUindk-7" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="850" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UkzblR-_nwrGP0QUindk-8" value="Rate(Relevance)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UkzblR-_nwrGP0QUindk-9" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkzblR-_nwrGP0QUindk-10" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkzblR-_nwrGP0QUindk-11" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
