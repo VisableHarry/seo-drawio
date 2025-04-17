@@ -113,8 +113,17 @@
         <mxCell id="ZRAxAP0Utn_GNNYLxswb-38" value="Showroom A-Z" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UkzblR-_nwrGP0QUindk-6" value="PDP Title, Desc ..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkzblR-_nwrGP0QUindk-7" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkzblR-_nwrGP0QUindk-8" value="Rate(Relevance)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkzblR-_nwrGP0QUindk-9" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="360" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
