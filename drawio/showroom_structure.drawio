@@ -79,23 +79,59 @@
         <mxCell id="ZRAxAP0Utn_GNNYLxswb-38" value="Showroom A-Z" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-6" value="PDP Title, Desc ..." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="200" width="120" height="40" as="geometry" />
+        <mxCell id="UkzblR-_nwrGP0QUindk-6" value="PDP Title, Desc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-7" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="200" width="120" height="40" as="geometry" />
+        <mxCell id="UkzblR-_nwrGP0QUindk-7" value="Keyword,Rate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-8" value="Rate(Relevance)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="280" width="120" height="40" as="geometry" />
+        <mxCell id="UkzblR-_nwrGP0QUindk-8" value="CPV Predict" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-9" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="UkzblR-_nwrGP0QUindk-9" value="90% PDP with Least Keyword Num" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-10" value="Keyword" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="280" width="120" height="40" as="geometry" />
+        <mxCell id="UkzblR-_nwrGP0QUindk-11" value="Keyword&#39;s PDP Num &amp;gt;=33" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UkzblR-_nwrGP0QUindk-11" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="TeHj9TKll05nfbYEzgIO-1" value="Title Length &amp;gt; 2 &amp;amp;&lt;div&gt;Desc Length &amp;gt; 30&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-2" value="Keyword" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-3" value="PDP1 Rate1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-2">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-4" value="PDP2 Rate2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-2">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-5" value="PDP3 Rate3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-2">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-6" value="CPV" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-7" value="Keyword1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-6">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-8" value="Keyword2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-6">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-9" value="Keyword3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-6">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-10" value="Keyword1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-11" value="Keyword2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-10">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-12" value="Keyword3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-10">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeHj9TKll05nfbYEzgIO-13" value="Keyword4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TeHj9TKll05nfbYEzgIO-10">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
