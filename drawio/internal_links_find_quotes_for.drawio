@@ -8,7 +8,35 @@
           <mxGeometry x="40" y="40" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MiB_9Nv69p1eGlMaaKYv-2" value="Find Quotes For(Home/CPP/CSERP)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="240" height="30" as="geometry" />
+          <mxGeometry x="40" y="160" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-4" value="Relate Keyword Landing Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MiB_9Nv69p1eGlMaaKYv-5" target="MiB_9Nv69p1eGlMaaKYv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-10" value="If Not Exist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MiB_9Nv69p1eGlMaaKYv-8">
+          <mxGeometry x="-0.325" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-5" value="Sales Keyword Landing Page&lt;div&gt;(TOP 500)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MiB_9Nv69p1eGlMaaKYv-6" target="MiB_9Nv69p1eGlMaaKYv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-11" value="If Not Exist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MiB_9Nv69p1eGlMaaKYv-9">
+          <mxGeometry x="0.225" y="3" relative="1" as="geometry">
+            <mxPoint x="-12" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-6" value="Sea Landing Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-7" value="Sales Keyword Landing Page&lt;div&gt;(Important 120)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
