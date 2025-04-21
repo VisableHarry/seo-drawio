@@ -327,6 +327,14 @@
         <mxCell id="-0ru6DcVJ9nmNVIg6mar-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-0ru6DcVJ9nmNVIg6mar-3" target="-0ru6DcVJ9nmNVIg6mar-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-0ru6DcVJ9nmNVIg6mar-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-0ru6DcVJ9nmNVIg6mar-3" target="UkzblR-_nwrGP0QUindk-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-290" y="620" />
+              <mxPoint x="-100" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-0ru6DcVJ9nmNVIg6mar-3" value="Search Result Cover &amp;gt;= 80%" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-320" y="680" width="120" height="40" as="geometry" />
         </mxCell>
