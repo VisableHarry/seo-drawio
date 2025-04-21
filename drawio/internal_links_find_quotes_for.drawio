@@ -4,11 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MiB_9Nv69p1eGlMaaKYv-1" value="Similar Searches" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-1" value="Similar Searches(CSERP/Showroom)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MiB_9Nv69p1eGlMaaKYv-2" value="Find Quotes For" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="120" height="30" as="geometry" />
+        <mxCell id="MiB_9Nv69p1eGlMaaKYv-2" value="Find Quotes For(Home/CPP/CSERP)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
