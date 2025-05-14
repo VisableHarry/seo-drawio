@@ -65,16 +65,16 @@
           <mxGeometry x="80" y="58" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S5Sz5O8gEk4Sw891k7_R-24" value="PSERP Url Change to Showroom Url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="960" y="230" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5Sz5O8gEk4Sw891k7_R-28" value="PSERP Sitemap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="49" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S5Sz5O8gEk4Sw891k7_R-29" value="Now" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="S5Sz5O8gEk4Sw891k7_R-29" value="Now" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S5Sz5O8gEk4Sw891k7_R-30" value="Future" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="210" width="60" height="30" as="geometry" />
+        <mxCell id="S5Sz5O8gEk4Sw891k7_R-30" value="Future" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
