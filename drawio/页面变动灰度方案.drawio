@@ -25,11 +25,26 @@
         <mxCell id="_8_idL4iygTQgJaF1n6U-3" value="页面补充内容变动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-4" target="_8_idL4iygTQgJaF1n6U-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-4" value="页面主体部分变动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="280" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-5" target="_8_idL4iygTQgJaF1n6U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-5" target="_8_idL4iygTQgJaF1n6U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-5" value="按流量均衡分2批发布，间隔14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-6" target="_8_idL4iygTQgJaF1n6U-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-6" target="_8_idL4iygTQgJaF1n6U-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-6" value="流量下跌，分析原因" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="-40" width="120" height="40" as="geometry" />
@@ -37,14 +52,38 @@
         <mxCell id="_8_idL4iygTQgJaF1n6U-7" value="流量未下跌，继续灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="120" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-8" target="_8_idL4iygTQgJaF1n6U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-8" value="因变更导致的，回滚，观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="-80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-10" target="_8_idL4iygTQgJaF1n6U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="-60" />
+              <mxPoint x="1140" y="-120" />
+              <mxPoint x="580" y="-120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-10" value="优化内容变更方案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="-80" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-12" target="_8_idL4iygTQgJaF1n6U-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-12" target="_8_idL4iygTQgJaF1n6U-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-12" value="按流量均衡分3批发布，间隔14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-13" target="_8_idL4iygTQgJaF1n6U-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-13" target="_8_idL4iygTQgJaF1n6U-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-13" value="流量下跌，分析原因" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="200" width="120" height="40" as="geometry" />
@@ -52,17 +91,53 @@
         <mxCell id="_8_idL4iygTQgJaF1n6U-14" value="流量未下跌，继续灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="360" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-15" target="_8_idL4iygTQgJaF1n6U-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-15" value="因变更导致的，回滚，观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-16" target="_8_idL4iygTQgJaF1n6U-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="180" />
+              <mxPoint x="1140" y="440" />
+              <mxPoint x="580" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-16" value="优化内容变更方案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-17" value="非变更导致的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-17" target="_8_idL4iygTQgJaF1n6U-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-17" target="_8_idL4iygTQgJaF1n6U-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-17" value="非变更导致的，修复并继续观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-18" value="非变更导致的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-18" target="_8_idL4iygTQgJaF1n6U-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-18" target="_8_idL4iygTQgJaF1n6U-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-18" value="非变更导致的，修复并继续观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-23" value="流量下跌，？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-24" value="流量未下跌，继续灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-36" value="流量下跌，？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8_idL4iygTQgJaF1n6U-37" value="流量未下跌，继续灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="320" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
