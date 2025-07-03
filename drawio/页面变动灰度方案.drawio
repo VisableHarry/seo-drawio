@@ -55,7 +55,7 @@
         <mxCell id="_8_idL4iygTQgJaF1n6U-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-8" target="_8_idL4iygTQgJaF1n6U-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-8" value="因变更导致的，回滚，观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-8" value="因变更导致的，回滚，观察至少14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="-80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-10" target="_8_idL4iygTQgJaF1n6U-5">
@@ -115,7 +115,7 @@
         <mxCell id="_8_idL4iygTQgJaF1n6U-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-17" target="_8_idL4iygTQgJaF1n6U-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-17" value="非变更导致的，修复并继续观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-17" value="非变更导致的，修复并继续观察至少14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-18" target="_8_idL4iygTQgJaF1n6U-36">
@@ -124,16 +124,16 @@
         <mxCell id="_8_idL4iygTQgJaF1n6U-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8_idL4iygTQgJaF1n6U-18" target="_8_idL4iygTQgJaF1n6U-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-18" value="非变更导致的，修复并继续观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-18" value="非变更导致的，修复并继续观察至少14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-23" value="流量下跌，回滚，观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-23" value="流量下跌，回滚，观察至少14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-24" value="流量未下跌，继续灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_8_idL4iygTQgJaF1n6U-36" value="流量下跌，回滚，观察14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_8_idL4iygTQgJaF1n6U-36" value="流量下跌，回滚，观察至少14天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_8_idL4iygTQgJaF1n6U-37" value="流量未下跌，继续灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
