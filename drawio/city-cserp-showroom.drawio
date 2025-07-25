@@ -40,6 +40,9 @@
         <mxCell id="isZL2Ls8pScrw3JJbjqI-12" value="TD修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="400" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="isZL2Ls8pScrw3JJbjqI-13" value="sitemap分离" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
