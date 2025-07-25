@@ -184,6 +184,12 @@
         <mxCell id="isZL2Ls8pScrw3JJbjqI-74" value="PRD4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="76" y="732" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="isZL2Ls8pScrw3JJbjqI-75" value="showroom-keyword入表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="895" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isZL2Ls8pScrw3JJbjqI-76" value="keyword-slug入表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="951" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
