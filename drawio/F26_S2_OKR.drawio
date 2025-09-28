@@ -16,6 +16,9 @@
         <mxCell id="pnVkMQvRt2Ape3iZtl4g-4" value="Inner Link Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="240" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="pnVkMQvRt2Ape3iZtl4g-5" value="Keyword Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
