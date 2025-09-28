@@ -5,13 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pnVkMQvRt2Ape3iZtl4g-1" value="SEO Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="360" width="280" height="40" as="geometry" />
+          <mxGeometry x="80" y="360" width="680" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pnVkMQvRt2Ape3iZtl4g-2" value="SEO Ops" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pnVkMQvRt2Ape3iZtl4g-3" value="SEO Ops" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pnVkMQvRt2Ape3iZtl4g-3" value="Sitemap Manage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pnVkMQvRt2Ape3iZtl4g-4" value="Inner Link Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
