@@ -10,13 +10,13 @@
         <mxCell id="xfih-oDNqXXJvzdR4ryM-2" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Technical Support&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xfih-oDNqXXJvzdR4ryM-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+        <mxCell id="xfih-oDNqXXJvzdR4ryM-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="140" as="sourcePoint" />
             <mxPoint x="920" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xfih-oDNqXXJvzdR4ryM-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+        <mxCell id="xfih-oDNqXXJvzdR4ryM-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="220" as="sourcePoint" />
             <mxPoint x="920" y="220" as="targetPoint" />
