@@ -163,19 +163,19 @@
           <mxGeometry x="167" y="399" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--57" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;CSERP UV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="647" y="399" width="80" height="30" as="geometry" />
+          <mxGeometry x="504" y="397" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--58" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;CPP UV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="407" y="399" width="80" height="30" as="geometry" />
+          <mxGeometry x="820" y="399" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--59" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;PDP UV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="287" y="399" width="80" height="30" as="geometry" />
+          <mxGeometry x="700" y="399" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--60" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Homepage UV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="527" y="399" width="80" height="30" as="geometry" />
+          <mxGeometry x="940" y="399" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--61" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;CPV UV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="767" y="399" width="80" height="30" as="geometry" />
+          <mxGeometry x="1054" y="399" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--62" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;数据基建&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="617" y="682" width="80" height="30" as="geometry" />
@@ -190,22 +190,31 @@
           <mxGeometry x="467" y="682" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--67" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;核心关键词&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="464" width="80" height="30" as="geometry" />
+          <mxGeometry x="167" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--68" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;内链质量标准&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="464" width="80" height="30" as="geometry" />
+          <mxGeometry x="167" y="501" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--69" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Sitemap&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;准入标准&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="325" y="464" width="80" height="30" as="geometry" />
+          <mxGeometry x="266" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--70" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;SEO元素质量&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="575" y="464" width="80" height="30" as="geometry" />
+          <mxGeometry x="266" y="501" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--71" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Defensive SEO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="700" y="464" width="80" height="30" as="geometry" />
+          <mxGeometry x="368" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--72" value="XX" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="430" y="549" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vqWDBfAvXvm7OD1M6UR--75" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;核心关键词&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="504" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vqWDBfAvXvm7OD1M6UR--76" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Defensive SEO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="607" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vqWDBfAvXvm7OD1M6UR--77" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;内链质量标准&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="504" y="503" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
