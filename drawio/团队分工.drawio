@@ -148,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--41" value="晓宇" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="206" y="556" width="60" height="30" as="geometry" />
+          <mxGeometry x="206" y="549" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--47" value="王超" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="570" y="569" width="60" height="30" as="geometry" />
@@ -205,7 +205,7 @@
           <mxGeometry x="700" y="464" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqWDBfAvXvm7OD1M6UR--72" value="XX" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="552" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="549" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
