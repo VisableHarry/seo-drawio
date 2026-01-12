@@ -37,6 +37,12 @@
         <mxCell id="s_bb32ZFWUd4LO-FqlTo-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="translate(5 versions)" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="680" as="geometry" />
         </mxCell>
+        <mxCell id="s_bb32ZFWUd4LO-FqlTo-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="basic filter&lt;div&gt;(length,deduplicate)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="s_bb32ZFWUd4LO-FqlTo-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="search result filter" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="840" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
