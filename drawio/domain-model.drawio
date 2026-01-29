@@ -1,156 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2026-01-29T10:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram id="v-seo-domain-model" name="V-SEO Domain Model">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2400" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        
-        <!-- Keyword Domain Title -->
-        <mxCell id="keyword-domain-title" value="Keyword Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="20" width="200" height="30" as="geometry" />
+        <mxCell id="keyword-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Keyword Domain" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="20" as="geometry" />
         </mxCell>
-        
-        <!-- SeoKeywordPO -->
-        <mxCell id="SeoKeywordPO" value="SeoKeywordPO&#xa;(seo_keyword)&#xa;───────────&#xa;keyword (PK)&#xa;taskName" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="60" width="150" height="90" as="geometry" />
+        <mxCell id="SeoKeywordPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoKeywordPO&#xa;(seo_keyword)&#xa;───────────&#xa;keyword (PK)&#xa;taskName" vertex="1">
+          <mxGeometry height="90" width="150" x="40" y="60" as="geometry" />
         </mxCell>
-        
-        <!-- SeoKeywordExtendPO -->
-        <mxCell id="SeoKeywordExtendPO" value="SeoKeywordExtendPO&#xa;(seo_keyword_extend)&#xa;───────────&#xa;sourceKeyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="190" width="150" height="80" as="geometry" />
+        <mxCell id="SeoKeywordExtendPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoKeywordExtendPO&#xa;(seo_keyword_extend)&#xa;───────────&#xa;sourceKeyword (FK)" vertex="1">
+          <mxGeometry height="80" width="150" x="40" y="190" as="geometry" />
         </mxCell>
-        
-        <!-- KeywordTranslatePO -->
-        <mxCell id="KeywordTranslatePO" value="KeywordTranslatePO&#xa;(keyword_translate)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="210" y="190" width="150" height="80" as="geometry" />
+        <mxCell id="KeywordTranslatePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="KeywordTranslatePO&#xa;(keyword_translate)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="150" x="210" y="190" as="geometry" />
         </mxCell>
-        
-        <!-- SeoKeywordCpvPO -->
-        <mxCell id="SeoKeywordCpvPO" value="SeoKeywordCpvPO&#xa;(seo_keyword_cpv)&#xa;───────────&#xa;keyword (FK)&#xa;cateId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="380" y="190" width="150" height="90" as="geometry" />
+        <mxCell id="SeoKeywordCpvPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoKeywordCpvPO&#xa;(seo_keyword_cpv)&#xa;───────────&#xa;keyword (FK)&#xa;cateId (FK)" vertex="1">
+          <mxGeometry height="90" width="150" x="380" y="190" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoKeywordPO -> SeoKeywordExtendPO -->
-        <mxCell id="edge1" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoKeywordPO" target="SeoKeywordExtendPO">
+        <mxCell id="edge1" edge="1" parent="1" source="SeoKeywordPO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" target="SeoKeywordExtendPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge1-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="95" y="165" width="30" height="20" as="geometry" />
+        <mxCell id="edge1-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="95" y="165" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoKeywordPO -> KeywordTranslatePO -->
-        <mxCell id="edge2" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoKeywordPO" target="KeywordTranslatePO">
+        <mxCell id="edge2" edge="1" parent="1" source="SeoKeywordPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeWidth=1;" target="KeywordTranslatePO">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="285" y="105" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge2-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="270" y="140" width="30" height="20" as="geometry" />
+        <mxCell id="edge2-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="270" y="140" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoKeywordPO -> SeoKeywordCpvPO -->
-        <mxCell id="edge3" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoKeywordPO" target="SeoKeywordCpvPO">
+        <mxCell id="edge3" edge="1" parent="1" source="SeoKeywordPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeWidth=1;" target="SeoKeywordCpvPO">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="455" y="105" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge3-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="140" width="30" height="20" as="geometry" />
+        <mxCell id="edge3-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="440" y="140" as="geometry" />
         </mxCell>
-        
-        <!-- Company/Product Domain Title -->
-        <mxCell id="company-domain-title" value="Company/Product Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="600" y="20" width="250" height="30" as="geometry" />
+        <mxCell id="company-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Company/Product Domain" vertex="1">
+          <mxGeometry height="30" width="250" x="600" y="20" as="geometry" />
         </mxCell>
-        
-        <!-- CompanyPO -->
-        <mxCell id="CompanyPO" value="CompanyPO&#xa;(company)&#xa;───────────&#xa;companyUuid (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="600" y="60" width="140" height="80" as="geometry" />
+        <mxCell id="CompanyPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="CompanyPO&#xa;(company)&#xa;───────────&#xa;companyUuid (PK)" vertex="1">
+          <mxGeometry height="80" width="140" x="600" y="60" as="geometry" />
         </mxCell>
-        
-        <!-- ProductPO -->
-        <mxCell id="ProductPO" value="ProductPO&#xa;(product)&#xa;───────────&#xa;productId (PK)&#xa;companyUuid (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="780" y="60" width="140" height="90" as="geometry" />
+        <mxCell id="ProductPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="ProductPO&#xa;(product)&#xa;───────────&#xa;productId (PK)&#xa;companyUuid (FK)" vertex="1">
+          <mxGeometry height="90" width="140" x="780" y="60" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: CompanyPO -> ProductPO -->
-        <mxCell id="edge4" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="CompanyPO" target="ProductPO">
+        <mxCell id="edge4" edge="1" parent="1" source="CompanyPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="ProductPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge4-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="745" y="85" width="30" height="20" as="geometry" />
+        <mxCell id="edge4-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="745" y="85" as="geometry" />
         </mxCell>
-        
-        <!-- CompanyKeywordPO -->
-        <mxCell id="CompanyKeywordPO" value="CompanyKeywordPO&#xa;(company_keyword)&#xa;───────────&#xa;pageId (FK)&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="600" y="190" width="140" height="90" as="geometry" />
+        <mxCell id="CompanyKeywordPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="CompanyKeywordPO&#xa;(company_keyword)&#xa;───────────&#xa;pageId (FK)&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="90" width="140" x="600" y="190" as="geometry" />
         </mxCell>
-        
-        <!-- ProductKeywordPO -->
-        <mxCell id="ProductKeywordPO" value="ProductKeywordPO&#xa;(product_keyword)&#xa;───────────&#xa;pageId (FK)&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="780" y="190" width="140" height="90" as="geometry" />
+        <mxCell id="ProductKeywordPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="ProductKeywordPO&#xa;(product_keyword)&#xa;───────────&#xa;pageId (FK)&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="90" width="140" x="780" y="190" as="geometry" />
         </mxCell>
-        
-        <!-- KeywordProductIdsPO -->
-        <mxCell id="KeywordProductIdsPO" value="KeywordProductIdsPO&#xa;(keywords_product_ids)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="690" y="320" width="150" height="80" as="geometry" />
+        <mxCell id="KeywordProductIdsPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="KeywordProductIdsPO&#xa;(keywords_product_ids)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="150" x="690" y="320" as="geometry" />
         </mxCell>
-        
-        <!-- Category Domain Title -->
-        <mxCell id="category-domain-title" value="Category Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="320" width="200" height="30" as="geometry" />
+        <mxCell id="category-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Category Domain" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="320" as="geometry" />
         </mxCell>
-        
-        <!-- SeoCpvOdpsPO -->
-        <mxCell id="SeoCpvOdpsPO" value="SeoCpvOdpsPO&#xa;(seo_cpv_odps)&#xa;───────────&#xa;catId (PK)&#xa;parentId (FK self)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="140" height="90" as="geometry" />
+        <mxCell id="SeoCpvOdpsPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoCpvOdpsPO&#xa;(seo_cpv_odps)&#xa;───────────&#xa;catId (PK)&#xa;parentId (FK self)" vertex="1">
+          <mxGeometry height="90" width="140" x="40" y="360" as="geometry" />
         </mxCell>
-        
-        <!-- SeoCpvCompanyOdpsPO -->
-        <mxCell id="SeoCpvCompanyOdpsPO" value="SeoCpvCompanyOdpsPO&#xa;(seo_cpv_company_odps)&#xa;───────────&#xa;catId (FK)&#xa;supplierId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="210" y="360" width="170" height="90" as="geometry" />
+        <mxCell id="SeoCpvCompanyOdpsPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoCpvCompanyOdpsPO&#xa;(seo_cpv_company_odps)&#xa;───────────&#xa;catId (FK)&#xa;supplierId (FK)" vertex="1">
+          <mxGeometry height="90" width="170" x="210" y="360" as="geometry" />
         </mxCell>
-        
-        <!-- SeoCpvCompanyProductOdpsPO -->
-        <mxCell id="SeoCpvCompanyProductOdpsPO" value="SeoCpvCompanyProductPO&#xa;(seo_cpv_company_product)&#xa;───────────&#xa;supplierId (FK)&#xa;productId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="410" y="360" width="180" height="90" as="geometry" />
+        <mxCell id="SeoCpvCompanyProductOdpsPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoCpvCompanyProductPO&#xa;(seo_cpv_company_product)&#xa;───────────&#xa;supplierId (FK)&#xa;productId (FK)" vertex="1">
+          <mxGeometry height="90" width="180" x="410" y="360" as="geometry" />
         </mxCell>
-        
-        <!-- CategoryLangPO -->
-        <mxCell id="CategoryLangPO" value="CategoryLangPO&#xa;(category_lang)&#xa;───────────&#xa;categoryId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="490" width="140" height="80" as="geometry" />
+        <mxCell id="CategoryLangPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="CategoryLangPO&#xa;(category_lang)&#xa;───────────&#xa;categoryId (FK)" vertex="1">
+          <mxGeometry height="80" width="140" x="40" y="490" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoCpvOdpsPO -> SeoCpvCompanyOdpsPO -->
-        <mxCell id="edge5" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SeoCpvOdpsPO" target="SeoCpvCompanyOdpsPO">
+        <mxCell id="edge5" edge="1" parent="1" source="SeoCpvOdpsPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="SeoCpvCompanyOdpsPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge5-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="180" y="390" width="30" height="20" as="geometry" />
+        <mxCell id="edge5-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="180" y="390" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoCpvCompanyOdpsPO -> SeoCpvCompanyProductOdpsPO -->
-        <mxCell id="edge6" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SeoCpvCompanyOdpsPO" target="SeoCpvCompanyProductOdpsPO">
+        <mxCell id="edge6" edge="1" parent="1" source="SeoCpvCompanyOdpsPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="SeoCpvCompanyProductOdpsPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge6-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="385" y="390" width="30" height="20" as="geometry" />
+        <mxCell id="edge6-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="385" y="390" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoCpvOdpsPO -> CategoryLangPO -->
-        <mxCell id="edge7" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoCpvOdpsPO" target="CategoryLangPO">
+        <mxCell id="edge7" edge="1" parent="1" source="SeoCpvOdpsPO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" target="CategoryLangPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge7-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="90" y="465" width="30" height="20" as="geometry" />
+        <mxCell id="edge7-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="90" y="465" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoKeywordCpvPO -> SeoCpvOdpsPO -->
-        <mxCell id="edge8" style="endArrow=classic;html=1;exitX=0;exitY=1;entryX=1;entryY=0;strokeWidth=1;dashed=1;" edge="1" parent="1" source="SeoKeywordCpvPO" target="SeoCpvOdpsPO">
+        <mxCell id="edge8" edge="1" parent="1" source="SeoKeywordCpvPO" style="endArrow=classic;html=1;exitX=0;exitY=1;entryX=1;entryY=0;strokeWidth=1;dashed=1;" target="SeoCpvOdpsPO">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="310" />
@@ -158,351 +110,236 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge8-label" value="N:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="225" y="290" width="30" height="20" as="geometry" />
+        <mxCell id="edge8-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="N:1" vertex="1">
+          <mxGeometry height="20" width="30" x="225" y="290" as="geometry" />
         </mxCell>
-        
-        <!-- Landing Page Domain Title -->
-        <mxCell id="landingpage-domain-title" value="Landing Page Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="960" y="20" width="220" height="30" as="geometry" />
+        <mxCell id="landingpage-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Landing Page Domain" vertex="1">
+          <mxGeometry height="30" width="220" x="960" y="20" as="geometry" />
         </mxCell>
-        
-        <!-- SeoLandingPagePO -->
-        <mxCell id="SeoLandingPagePO" value="SeoLandingPagePO&#xa;(seo_landing_page)&#xa;───────────&#xa;url (PK)&#xa;categoryId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="960" y="60" width="150" height="90" as="geometry" />
+        <mxCell id="SeoLandingPagePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoLandingPagePO&#xa;(seo_landing_page)&#xa;───────────&#xa;url (PK)&#xa;categoryId (FK)" vertex="1">
+          <mxGeometry height="90" width="150" x="960" y="60" as="geometry" />
         </mxCell>
-        
-        <!-- LandingPageKeywordPO -->
-        <mxCell id="LandingPageKeywordPO" value="LandingPageKeywordPO&#xa;(landing_page_keywords)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="960" y="190" width="160" height="80" as="geometry" />
+        <mxCell id="LandingPageKeywordPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="LandingPageKeywordPO&#xa;(landing_page_keywords)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="160" x="960" y="190" as="geometry" />
         </mxCell>
-        
-        <!-- SeoClickPagePO -->
-        <mxCell id="SeoClickPagePO" value="SeoClickPagePO&#xa;(seo_click_page)&#xa;───────────&#xa;url (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1140" y="60" width="140" height="80" as="geometry" />
+        <mxCell id="SeoClickPagePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoClickPagePO&#xa;(seo_click_page)&#xa;───────────&#xa;url (FK)" vertex="1">
+          <mxGeometry height="80" width="140" x="1140" y="60" as="geometry" />
         </mxCell>
-        
-        <!-- SeoClickPageHtmlPO -->
-        <mxCell id="SeoClickPageHtmlPO" value="SeoClickPageHtmlPO&#xa;(seo_click_page_html)&#xa;───────────&#xa;url (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1140" y="180" width="150" height="80" as="geometry" />
+        <mxCell id="SeoClickPageHtmlPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoClickPageHtmlPO&#xa;(seo_click_page_html)&#xa;───────────&#xa;url (FK)" vertex="1">
+          <mxGeometry height="80" width="150" x="1140" y="180" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoClickPagePO -> SeoClickPageHtmlPO -->
-        <mxCell id="edge9" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoClickPagePO" target="SeoClickPageHtmlPO">
+        <mxCell id="edge9" edge="1" parent="1" source="SeoClickPagePO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" target="SeoClickPageHtmlPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge9-label" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="150" width="30" height="20" as="geometry" />
+        <mxCell id="edge9-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:1" vertex="1">
+          <mxGeometry height="20" width="30" x="1195" y="150" as="geometry" />
         </mxCell>
-        
-        <!-- Internal Link Domain Title -->
-        <mxCell id="internallink-domain-title" value="Internal Link Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="610" width="220" height="30" as="geometry" />
+        <mxCell id="internallink-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Internal Link Domain" vertex="1">
+          <mxGeometry height="30" width="220" x="40" y="610" as="geometry" />
         </mxCell>
-        
-        <!-- SeoInternalLinkRelationPO -->
-        <mxCell id="SeoInternalLinkRelationPO" value="SeoInternalLinkRelationPO&#xa;(seo_internal_link_relation)&#xa;───────────&#xa;landingPageUrl (FK)&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="650" width="190" height="90" as="geometry" />
+        <mxCell id="SeoInternalLinkRelationPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoInternalLinkRelationPO&#xa;(seo_internal_link_relation)&#xa;───────────&#xa;landingPageUrl (FK)&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="90" width="190" x="40" y="650" as="geometry" />
         </mxCell>
-        
-        <!-- BottomLinkRelationPO -->
-        <mxCell id="BottomLinkRelationPO" value="BottomLinkRelationPO&#xa;(bottom_link_relation)&#xa;───────────&#xa;pagePath (FK)&#xa;internalLinkPath" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="260" y="650" width="160" height="90" as="geometry" />
+        <mxCell id="BottomLinkRelationPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="BottomLinkRelationPO&#xa;(bottom_link_relation)&#xa;───────────&#xa;pagePath (FK)&#xa;internalLinkPath" vertex="1">
+          <mxGeometry height="90" width="160" x="260" y="650" as="geometry" />
         </mxCell>
-        
-        <!-- KeywordInternalLinkPO -->
-        <mxCell id="KeywordInternalLinkPO" value="KeywordInternalLinkPO&#xa;(keyword_internal_link)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="450" y="650" width="160" height="80" as="geometry" />
+        <mxCell id="KeywordInternalLinkPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="KeywordInternalLinkPO&#xa;(keyword_internal_link)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="160" x="450" y="650" as="geometry" />
         </mxCell>
-        
-        <!-- InnerChainTablePO -->
-        <mxCell id="InnerChainTablePO" value="InnerChainTablePO&#xa;(inner_chain_table)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="780" width="150" height="80" as="geometry" />
+        <mxCell id="InnerChainTablePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="InnerChainTablePO&#xa;(inner_chain_table)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="150" x="40" y="780" as="geometry" />
         </mxCell>
-        
-        <!-- RelateKeywordPO -->
-        <mxCell id="RelateKeywordPO" value="RelateKeywordPO&#xa;(relate_keyword)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="220" y="780" width="140" height="80" as="geometry" />
+        <mxCell id="RelateKeywordPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="RelateKeywordPO&#xa;(relate_keyword)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="140" x="220" y="780" as="geometry" />
         </mxCell>
-        
-        <!-- SEO Ops Domain Title -->
-        <mxCell id="seo-ops-domain-title" value="SEO Ops Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="660" y="440" width="200" height="30" as="geometry" />
+        <mxCell id="seo-ops-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="SEO Ops Domain" vertex="1">
+          <mxGeometry height="30" width="200" x="660" y="440" as="geometry" />
         </mxCell>
-        
-        <!-- SeoOpsUrlBatchPO -->
-        <mxCell id="SeoOpsUrlBatchPO" value="SeoOpsUrlBatchPO&#xa;(seo_ops_url_batch)&#xa;───────────&#xa;id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="660" y="480" width="140" height="70" as="geometry" />
+        <mxCell id="SeoOpsUrlBatchPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoOpsUrlBatchPO&#xa;(seo_ops_url_batch)&#xa;───────────&#xa;id (PK)" vertex="1">
+          <mxGeometry height="70" width="140" x="660" y="480" as="geometry" />
         </mxCell>
-        
-        <!-- SeoOpsUrlUploadPO -->
-        <mxCell id="SeoOpsUrlUploadPO" value="SeoOpsUrlUploadPO&#xa;(seo_ops_url_upload)&#xa;───────────&#xa;urlBatchId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="660" y="590" width="140" height="80" as="geometry" />
+        <mxCell id="SeoOpsUrlUploadPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoOpsUrlUploadPO&#xa;(seo_ops_url_upload)&#xa;───────────&#xa;urlBatchId (FK)" vertex="1">
+          <mxGeometry height="80" width="140" x="660" y="590" as="geometry" />
         </mxCell>
-        
-        <!-- SeoOpsUrlSelectionPO -->
-        <mxCell id="SeoOpsUrlSelectionPO" value="SeoOpsUrlSelectionPO&#xa;(seo_ops_url_selection)&#xa;───────────&#xa;id (PK)&#xa;urlBatchId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="840" y="480" width="160" height="90" as="geometry" />
+        <mxCell id="SeoOpsUrlSelectionPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoOpsUrlSelectionPO&#xa;(seo_ops_url_selection)&#xa;───────────&#xa;id (PK)&#xa;urlBatchId (FK)" vertex="1">
+          <mxGeometry height="90" width="160" x="840" y="480" as="geometry" />
         </mxCell>
-        
-        <!-- SeoOpsContentModificationPO -->
-        <mxCell id="SeoOpsContentModificationPO" value="SeoOpsContentModificationPO&#xa;(seo_ops_content_modification)&#xa;───────────&#xa;id (PK)&#xa;urlSelectionId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="840" y="610" width="200" height="90" as="geometry" />
+        <mxCell id="SeoOpsContentModificationPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoOpsContentModificationPO&#xa;(seo_ops_content_modification)&#xa;───────────&#xa;id (PK)&#xa;urlSelectionId (FK)" vertex="1">
+          <mxGeometry height="90" width="200" x="840" y="610" as="geometry" />
         </mxCell>
-        
-        <!-- SeoOpsGenerationResultPO -->
-        <mxCell id="SeoOpsGenerationResultPO" value="SeoOpsGenerationResultPO&#xa;(seo_ops_generation_result)&#xa;───────────&#xa;urlSelectionId (FK)&#xa;contentModificationId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1080" y="480" width="200" height="90" as="geometry" />
+        <mxCell id="SeoOpsGenerationResultPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoOpsGenerationResultPO&#xa;(seo_ops_generation_result)&#xa;───────────&#xa;urlSelectionId (FK)&#xa;contentModificationId (FK)" vertex="1">
+          <mxGeometry height="90" width="200" x="1080" y="580" as="geometry" />
         </mxCell>
-        
-        <!-- SeoOpsModificationRecordPO -->
-        <mxCell id="SeoOpsModificationRecordPO" value="SeoOpsModificationRecordPO&#xa;(seo_ops_modification_record)&#xa;───────────&#xa;urlSelectionId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1080" y="610" width="200" height="80" as="geometry" />
+        <mxCell id="SeoOpsModificationRecordPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoOpsModificationRecordPO&#xa;(seo_ops_modification_record)&#xa;───────────&#xa;urlSelectionId (FK)" vertex="1">
+          <mxGeometry height="80" width="200" x="1080" y="480" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoOpsUrlBatchPO -> SeoOpsUrlUploadPO -->
-        <mxCell id="edge10" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoOpsUrlBatchPO" target="SeoOpsUrlUploadPO">
+        <mxCell id="edge10" edge="1" parent="1" source="SeoOpsUrlBatchPO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" target="SeoOpsUrlUploadPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge10-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="710" y="565" width="30" height="20" as="geometry" />
+        <mxCell id="edge10-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="710" y="565" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoOpsUrlBatchPO -> SeoOpsUrlSelectionPO -->
-        <mxCell id="edge11" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;dashed=1;" edge="1" parent="1" source="SeoOpsUrlBatchPO" target="SeoOpsUrlSelectionPO">
+        <mxCell id="edge11" edge="1" parent="1" source="SeoOpsUrlBatchPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;dashed=1;" target="SeoOpsUrlSelectionPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge11-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="805" y="500" width="30" height="20" as="geometry" />
+        <mxCell id="edge11-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="805" y="500" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoOpsUrlSelectionPO -> SeoOpsContentModificationPO -->
-        <mxCell id="edge12" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoOpsUrlSelectionPO" target="SeoOpsContentModificationPO">
+        <mxCell id="edge12" edge="1" parent="1" source="SeoOpsUrlSelectionPO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" target="SeoOpsContentModificationPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge12-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="920" y="585" width="30" height="20" as="geometry" />
+        <mxCell id="edge12-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="920" y="585" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoOpsUrlSelectionPO -> SeoOpsGenerationResultPO -->
-        <mxCell id="edge13" style="endArrow=classic;html=1;exitX=1;exitY=0.3;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SeoOpsUrlSelectionPO" target="SeoOpsGenerationResultPO">
+        <mxCell id="edge13" edge="1" parent="1" source="SeoOpsUrlSelectionPO" style="endArrow=classic;html=1;exitX=1;exitY=0.75;entryX=0;entryY=0.5;strokeWidth=1;exitDx=0;exitDy=0;" target="SeoOpsGenerationResultPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge13-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="495" width="30" height="20" as="geometry" />
+        <mxCell id="edge13-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="1020" y="495" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoOpsContentModificationPO -> SeoOpsGenerationResultPO -->
-        <mxCell id="edge14" style="endArrow=classic;html=1;exitX=1;exitY=0;entryX=0;entryY=1;strokeWidth=1;" edge="1" parent="1" source="SeoOpsContentModificationPO" target="SeoOpsGenerationResultPO">
+        <mxCell id="edge14" edge="1" parent="1" source="SeoOpsContentModificationPO" style="endArrow=classic;html=1;exitX=1;exitY=0;entryX=0;entryY=0.75;strokeWidth=1;entryDx=0;entryDy=0;" target="SeoOpsGenerationResultPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge14-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="580" width="30" height="20" as="geometry" />
+        <mxCell id="edge14-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="1040" y="580" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoOpsUrlSelectionPO -> SeoOpsModificationRecordPO -->
-        <mxCell id="edge15" style="endArrow=classic;html=1;exitX=1;exitY=0.7;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SeoOpsUrlSelectionPO" target="SeoOpsModificationRecordPO">
+        <mxCell id="edge15" edge="1" parent="1" source="SeoOpsUrlSelectionPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;exitDx=0;exitDy=0;" target="SeoOpsModificationRecordPO">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1040" y="543" />
-              <mxPoint x="1040" y="650" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge15-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="590" width="30" height="20" as="geometry" />
+        <mxCell id="edge15-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="1040" y="630" as="geometry" />
         </mxCell>
-        
-        <!-- AI Batch Processing Domain Title -->
-        <mxCell id="ai-batch-domain-title" value="AI Batch Processing Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="900" width="280" height="30" as="geometry" />
+        <mxCell id="ai-batch-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="AI Batch Processing Domain" vertex="1">
+          <mxGeometry height="30" width="280" x="40" y="900" as="geometry" />
         </mxCell>
-        
-        <!-- SiteSeoLandingPageExtractedKeywordDfPO -->
-        <mxCell id="SiteSeoLpExtractedKwPO" value="SiteSeoLpExtractedKeywordDfPO&#xa;(site_seo_lp_extracted_kw)&#xa;───────────&#xa;id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="940" width="210" height="80" as="geometry" />
+        <mxCell id="SiteSeoLpExtractedKwPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SiteSeoLpExtractedKeywordDfPO&#xa;(site_seo_lp_extracted_kw)&#xa;───────────&#xa;id (PK)" vertex="1">
+          <mxGeometry height="80" width="210" x="40" y="940" as="geometry" />
         </mxCell>
-        
-        <!-- SiteSeoLpKeywordWithAIPO -->
-        <mxCell id="SiteSeoLpKeywordWithAIPO" value="SiteSeoLpKeywordWithAIPO&#xa;(site_seo_lp_keyword_with_ai)&#xa;───────────&#xa;id (PK)&#xa;oriId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="290" y="940" width="200" height="90" as="geometry" />
+        <mxCell id="SiteSeoLpKeywordWithAIPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SiteSeoLpKeywordWithAIPO&#xa;(site_seo_lp_keyword_with_ai)&#xa;───────────&#xa;id (PK)&#xa;oriId (FK)" vertex="1">
+          <mxGeometry height="90" width="200" x="290" y="940" as="geometry" />
         </mxCell>
-        
-        <!-- SiteSeoLpKeywordWithAIOutputPO -->
-        <mxCell id="SiteSeoLpKeywordWithAIOutputPO" value="SiteSeoLpKeywordWithAIOutputPO&#xa;(site_seo_lp_kw_ai_output)&#xa;───────────&#xa;id (PK)&#xa;inputId (FK)&#xa;variantBatchId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="530" y="940" width="220" height="100" as="geometry" />
+        <mxCell id="SiteSeoLpKeywordWithAIOutputPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SiteSeoLpKeywordWithAIOutputPO&#xa;(site_seo_lp_kw_ai_output)&#xa;───────────&#xa;id (PK)&#xa;inputId (FK)&#xa;variantBatchId (FK)" vertex="1">
+          <mxGeometry height="100" width="220" x="530" y="940" as="geometry" />
         </mxCell>
-        
-        <!-- SiteSeoVariantTdh -->
-        <mxCell id="SiteSeoVariantTdh" value="SiteSeoVariantTdh&#xa;(site_seo_variant_td_head)&#xa;───────────&#xa;inputId (FK)&#xa;variantBatchId (FK)&#xa;tdhBatchId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="790" y="940" width="180" height="100" as="geometry" />
+        <mxCell id="SiteSeoVariantTdh" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SiteSeoVariantTdh&#xa;(site_seo_variant_td_head)&#xa;───────────&#xa;inputId (FK)&#xa;variantBatchId (FK)&#xa;tdhBatchId (FK)" vertex="1">
+          <mxGeometry height="100" width="180" x="790" y="940" as="geometry" />
         </mxCell>
-        
-        <!-- SiteSeoLpBatchTaskPO -->
-        <mxCell id="SiteSeoLpBatchTaskPO" value="SiteSeoLpBatchTaskPO&#xa;(site_seo_lp_batch_task)&#xa;───────────&#xa;batchId (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="530" y="1080" width="180" height="80" as="geometry" />
+        <mxCell id="SiteSeoLpBatchTaskPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SiteSeoLpBatchTaskPO&#xa;(site_seo_lp_batch_task)&#xa;───────────&#xa;batchId (PK)" vertex="1">
+          <mxGeometry height="80" width="180" x="530" y="1080" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SiteSeoLpExtractedKwPO -> SiteSeoLpKeywordWithAIPO -->
-        <mxCell id="edge16" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SiteSeoLpExtractedKwPO" target="SiteSeoLpKeywordWithAIPO">
+        <mxCell id="edge16" edge="1" parent="1" source="SiteSeoLpExtractedKwPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="SiteSeoLpKeywordWithAIPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge16-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="260" y="965" width="30" height="20" as="geometry" />
+        <mxCell id="edge16-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="260" y="965" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SiteSeoLpKeywordWithAIPO -> SiteSeoLpKeywordWithAIOutputPO -->
-        <mxCell id="edge17" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SiteSeoLpKeywordWithAIPO" target="SiteSeoLpKeywordWithAIOutputPO">
+        <mxCell id="edge17" edge="1" parent="1" source="SiteSeoLpKeywordWithAIPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="SiteSeoLpKeywordWithAIOutputPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge17-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="500" y="970" width="30" height="20" as="geometry" />
+        <mxCell id="edge17-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="500" y="970" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SiteSeoLpKeywordWithAIOutputPO -> SiteSeoVariantTdh -->
-        <mxCell id="edge18" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="SiteSeoLpKeywordWithAIOutputPO" target="SiteSeoVariantTdh">
+        <mxCell id="edge18" edge="1" parent="1" source="SiteSeoLpKeywordWithAIOutputPO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="SiteSeoVariantTdh">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge18-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="760" y="975" width="30" height="20" as="geometry" />
+        <mxCell id="edge18-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="760" y="975" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SiteSeoLpKeywordWithAIOutputPO -> SiteSeoLpBatchTaskPO -->
-        <mxCell id="edge19" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;dashed=1;" edge="1" parent="1" source="SiteSeoLpKeywordWithAIOutputPO" target="SiteSeoLpBatchTaskPO">
+        <mxCell id="edge19" edge="1" parent="1" source="SiteSeoLpKeywordWithAIOutputPO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;dashed=1;" target="SiteSeoLpBatchTaskPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge19-label" value="N:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1055" width="30" height="20" as="geometry" />
+        <mxCell id="edge19-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="N:1" vertex="1">
+          <mxGeometry height="20" width="30" x="620" y="1055" as="geometry" />
         </mxCell>
-        
-        <!-- Data Analytics Domain Title -->
-        <mxCell id="data-domain-title" value="Data Analytics Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1000" y="740" width="220" height="30" as="geometry" />
+        <mxCell id="data-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Data Analytics Domain" vertex="1">
+          <mxGeometry height="30" width="220" x="1000" y="740" as="geometry" />
         </mxCell>
-        
-        <!-- SeoKeywordAnalyzePO -->
-        <mxCell id="SeoKeywordAnalyzePO" value="SeoKeywordAnalyzePO&#xa;(seo_keyword_analyze)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1000" y="780" width="160" height="80" as="geometry" />
+        <mxCell id="SeoKeywordAnalyzePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoKeywordAnalyzePO&#xa;(seo_keyword_analyze)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="160" x="1000" y="780" as="geometry" />
         </mxCell>
-        
-        <!-- SeoLandingPageScorePO -->
-        <mxCell id="SeoLandingPageScorePO" value="SeoLandingPageScorePO&#xa;(seo_landing_page_score)&#xa;───────────&#xa;keyword (FK)&#xa;url (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1190" y="780" width="170" height="90" as="geometry" />
+        <mxCell id="SeoLandingPageScorePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoLandingPageScorePO&#xa;(seo_landing_page_score)&#xa;───────────&#xa;keyword (FK)&#xa;url (FK)" vertex="1">
+          <mxGeometry height="90" width="170" x="1190" y="780" as="geometry" />
         </mxCell>
-        
-        <!-- KeywordRankingPO -->
-        <mxCell id="KeywordRankingPO" value="KeywordRankingPO&#xa;(keyword_ranking)&#xa;───────────&#xa;keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1000" y="900" width="150" height="80" as="geometry" />
+        <mxCell id="KeywordRankingPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="KeywordRankingPO&#xa;(keyword_ranking)&#xa;───────────&#xa;keyword (FK)" vertex="1">
+          <mxGeometry height="80" width="150" x="1000" y="900" as="geometry" />
         </mxCell>
-        
-        <!-- SeoDigSummaryPO -->
-        <mxCell id="SeoDigSummaryPO" value="SeoDigSummaryPO&#xa;(seo_dig_summary)&#xa;───────────&#xa;id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1180" y="900" width="140" height="80" as="geometry" />
+        <mxCell id="SeoDigSummaryPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoDigSummaryPO&#xa;(seo_dig_summary)&#xa;───────────&#xa;id (PK)" vertex="1">
+          <mxGeometry height="80" width="140" x="1180" y="900" as="geometry" />
         </mxCell>
-        
-        <!-- SeoDigUrlPO -->
-        <mxCell id="SeoDigUrlPO" value="SeoDigUrlPO&#xa;(seo_dig_url)&#xa;───────────&#xa;summaryId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1020" width="140" height="80" as="geometry" />
+        <mxCell id="SeoDigUrlPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoDigUrlPO&#xa;(seo_dig_url)&#xa;───────────&#xa;summaryId (FK)" vertex="1">
+          <mxGeometry height="80" width="140" x="1180" y="1020" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: SeoDigSummaryPO -> SeoDigUrlPO -->
-        <mxCell id="edge20" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" edge="1" parent="1" source="SeoDigSummaryPO" target="SeoDigUrlPO">
+        <mxCell id="edge20" edge="1" parent="1" source="SeoDigSummaryPO" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=1;" target="SeoDigUrlPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge20-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="995" width="30" height="20" as="geometry" />
+        <mxCell id="edge20-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="1230" y="995" as="geometry" />
         </mxCell>
-        
-        <!-- Task Domain Title -->
-        <mxCell id="task-domain-title" value="Task Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="1180" width="150" height="30" as="geometry" />
+        <mxCell id="task-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Task Domain" vertex="1">
+          <mxGeometry height="30" width="150" x="40" y="1180" as="geometry" />
         </mxCell>
-        
-        <!-- SeoDynamicTaskPO -->
-        <mxCell id="SeoDynamicTaskPO" value="SeoDynamicTaskPO&#xa;(seo_dynamic_task)&#xa;───────────&#xa;id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="40" y="1220" width="150" height="80" as="geometry" />
+        <mxCell id="SeoDynamicTaskPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoDynamicTaskPO&#xa;(seo_dynamic_task)&#xa;───────────&#xa;id (PK)" vertex="1">
+          <mxGeometry height="80" width="150" x="40" y="1220" as="geometry" />
         </mxCell>
-        
-        <!-- SeoSitemapTaskInstancePO -->
-        <mxCell id="SeoSitemapTaskInstancePO" value="SeoSitemapTaskInstancePO&#xa;(seo_sitemap_task_instance)&#xa;───────────&#xa;taskId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="230" y="1220" width="190" height="80" as="geometry" />
+        <mxCell id="SeoSitemapTaskInstancePO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="SeoSitemapTaskInstancePO&#xa;(seo_sitemap_task_instance)&#xa;───────────&#xa;taskId (FK)" vertex="1">
+          <mxGeometry height="80" width="190" x="230" y="1220" as="geometry" />
         </mxCell>
-        
-        <!-- Trends Domain Title -->
-        <mxCell id="trends-domain-title" value="Trends Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="480" y="1180" width="150" height="30" as="geometry" />
+        <mxCell id="trends-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Trends Domain" vertex="1">
+          <mxGeometry height="30" width="150" x="480" y="1180" as="geometry" />
         </mxCell>
-        
-        <!-- KeywordSlug -->
-        <mxCell id="KeywordSlug" value="KeywordSlug&#xa;(keyword_slug)&#xa;───────────&#xa;id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="480" y="1220" width="130" height="80" as="geometry" />
+        <mxCell id="KeywordSlug" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="KeywordSlug&lt;br&gt;(keyword_slug)&lt;br&gt;──────────&lt;br&gt;id (PK)" vertex="1">
+          <mxGeometry height="80" width="130" x="480" y="1220" as="geometry" />
         </mxCell>
-        
-        <!-- TrendProductsPO -->
-        <mxCell id="TrendProductsPO" value="TrendProductsPO&#xa;(trend_products)&#xa;───────────&#xa;slugId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="650" y="1220" width="140" height="80" as="geometry" />
+        <mxCell id="TrendProductsPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="TrendProductsPO&#xa;(trend_products)&#xa;───────────&#xa;slugId (FK)" vertex="1">
+          <mxGeometry height="80" width="140" x="650" y="1220" as="geometry" />
         </mxCell>
-        
-        <!-- Edge: KeywordSlug -> TrendProductsPO -->
-        <mxCell id="edge21" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" edge="1" parent="1" source="KeywordSlug" target="TrendProductsPO">
+        <mxCell id="edge21" edge="1" parent="1" source="KeywordSlug" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;" target="TrendProductsPO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge21-label" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="615" y="1245" width="30" height="20" as="geometry" />
+        <mxCell id="edge21-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="1:N" vertex="1">
+          <mxGeometry height="20" width="30" x="615" y="1245" as="geometry" />
         </mxCell>
-        
-        <!-- Cache Domain Title -->
-        <mxCell id="cache-domain-title" value="Cache Domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="840" y="1180" width="150" height="30" as="geometry" />
+        <mxCell id="cache-domain-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Cache Domain" vertex="1">
+          <mxGeometry height="30" width="150" x="840" y="1180" as="geometry" />
         </mxCell>
-        
-        <!-- CacheUrlPO -->
-        <mxCell id="CacheUrlPO" value="CacheUrlPO&#xa;(cache_urls)&#xa;───────────&#xa;url (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="840" y="1220" width="120" height="80" as="geometry" />
+        <mxCell id="CacheUrlPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="CacheUrlPO&lt;br&gt;(cache_urls)&lt;br&gt;─────────&lt;br&gt;url (PK)" vertex="1">
+          <mxGeometry height="80" width="120" x="840" y="1220" as="geometry" />
         </mxCell>
-        
-        <!-- PageAiContentInfoPO -->
-        <mxCell id="PageAiContentInfoPO" value="PageAiContentInfoPO&#xa;(page_ai_content_info)&#xa;───────────&#xa;companyUuid (FK)&#xa;productUuid (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1220" width="170" height="90" as="geometry" />
+        <mxCell id="PageAiContentInfoPO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" value="PageAiContentInfoPO&#xa;(page_ai_content_info)&#xa;───────────&#xa;companyUuid (FK)&#xa;productUuid (FK)" vertex="1">
+          <mxGeometry height="90" width="170" x="1000" y="1220" as="geometry" />
         </mxCell>
-        
-        <!-- Legend -->
-        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1180" width="180" height="130" as="geometry" />
+        <mxCell id="legend-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="130" width="180" x="1200" y="1180" as="geometry" />
         </mxCell>
-        
-        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1185" width="180" height="20" as="geometry" />
+        <mxCell id="legend-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="Legend" vertex="1">
+          <mxGeometry height="20" width="180" x="1200" y="1185" as="geometry" />
         </mxCell>
-        
-        <mxCell id="legend-pk" value="PK = Primary Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1210" width="120" height="20" as="geometry" />
+        <mxCell id="legend-pk" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;spacingLeft=10;" value="PK = Primary Key" vertex="1">
+          <mxGeometry height="20" width="120" x="1200" y="1210" as="geometry" />
         </mxCell>
-        
-        <mxCell id="legend-fk" value="FK = Foreign Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1230" width="120" height="20" as="geometry" />
+        <mxCell id="legend-fk" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;spacingLeft=10;" value="FK = Foreign Key" vertex="1">
+          <mxGeometry height="20" width="120" x="1200" y="1230" as="geometry" />
         </mxCell>
-        
-        <mxCell id="legend-line1" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="legend-line1" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1210" y="1260" as="sourcePoint" />
             <mxPoint x="1270" y="1260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend-line1-label" value="1:N Relationship" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="1250" width="100" height="20" as="geometry" />
+        <mxCell id="legend-line1-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" value="1:N Relationship" vertex="1">
+          <mxGeometry height="20" width="100" x="1275" y="1250" as="geometry" />
         </mxCell>
-        
-        <mxCell id="legend-line2" value="" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="legend-line2" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1210" y="1290" as="sourcePoint" />
             <mxPoint x="1270" y="1290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend-line2-label" value="Optional" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="1280" width="100" height="20" as="geometry" />
+        <mxCell id="legend-line2-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" value="Optional" vertex="1">
+          <mxGeometry height="20" width="100" x="1275" y="1280" as="geometry" />
         </mxCell>
-        
       </root>
     </mxGraphModel>
   </diagram>
