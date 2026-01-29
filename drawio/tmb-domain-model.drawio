@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-01-29T00:00:00.000Z" agent="Cursor" version="22.0.0" type="device">
+  <diagram name="Traffic Mesh Domain Model" id="domain-model">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="Traffic Mesh Backend - 领域模型图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== SEO/Page Elements Domain ==================== -->
+        <mxCell id="seo-group" value="SEO/Page Elements 聚合" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="340" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- PageElements Entity -->
+        <mxCell id="PageElements" value="PageElements&#xa;─────────────────────&#xa;id : Long&#xa;domain : String&#xa;urlPath : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="seo-group">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- PageElementsCommon Entity -->
+        <mxCell id="PageElementsCommon" value="PageElementsCommon&#xa;(分表基类)&#xa;─────────────────────&#xa;id : Long&#xa;pageId : String&#xa;pageType : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="seo-group">
+          <mxGeometry x="170" y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- PageElementsSite Entity -->
+        <mxCell id="PageElementsSite" value="PageElementsSite&#xa;(site分表: WlwDe, EpFr等)&#xa;─────────────────────&#xa;继承 PageElementsCommon&#xa;共25+分表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="seo-group">
+          <mxGeometry x="85" y="160" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Inheritance arrow -->
+        <mxCell id="pe-inherit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="PageElementsSite" target="PageElementsCommon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== Link Relation Domain ==================== -->
+        <mxCell id="link-group" value="Link Relation 聚合" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="340" height="300" as="geometry" />
+        </mxCell>
+
+        <!-- LinkRelation Entity -->
+        <mxCell id="LinkRelation" value="LinkRelation&#xa;─────────────────────&#xa;id : Long&#xa;domain : String&#xa;pagePath : String&#xa;internalLinkPath : String&#xa;name : String&#xa;type : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="link-group">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- LinkRelationCommon Entity -->
+        <mxCell id="LinkRelationCommon" value="LinkRelationCommon&#xa;(分表基类)&#xa;─────────────────────&#xa;id : Long&#xa;pageId : String&#xa;internalLinkPath : String&#xa;name : String&#xa;type : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="link-group">
+          <mxGeometry x="170" y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- LinkRelationSite Entity -->
+        <mxCell id="LinkRelationSite" value="LinkRelationSite&#xa;(site分表: WlwDe, EpFr等)&#xa;─────────────────────&#xa;继承 LinkRelationCommon&#xa;共25+分表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="link-group">
+          <mxGeometry x="85" y="180" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Inheritance arrow for LinkRelation -->
+        <mxCell id="lr-inherit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="LinkRelationSite" target="LinkRelationCommon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- BottomLinkRelation Entity -->
+        <mxCell id="BottomLinkRelation" value="BottomLinkRelation&#xa;─────────────────────&#xa;id : Long&#xa;domain : String&#xa;pagePath : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="160" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== Keyword Domain ==================== -->
+        <mxCell id="keyword-group" value="Keyword 聚合" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="520" height="360" as="geometry" />
+        </mxCell>
+
+        <!-- KeywordSlug Entity -->
+        <mxCell id="KeywordSlug" value="KeywordSlug&#xa;─────────────────────&#xa;id : Long&#xa;language : String&#xa;keyword : String&#xa;slug : String&#xa;title : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- KeywordExplanation Entity -->
+        <mxCell id="KeywordExplanation" value="KeywordExplanation&#xa;─────────────────────&#xa;id : Long&#xa;language : String&#xa;keyword : String&#xa;picId : Long (→图片)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry x="180" y="30" width="170" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- KeywordCpv Entity -->
+        <mxCell id="KeywordCpv" value="KeywordCpv&#xa;─────────────────────&#xa;id : Long&#xa;langKeyword : String&#xa;categoryId : Long&#xa;    (→ CategoryLang)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry x="360" y="30" width="150" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- RelateKeyword Entity -->
+        <mxCell id="RelateKeyword" value="RelateKeyword&#xa;─────────────────────&#xa;id : Long&#xa;keyword : String&#xa;relateKeywords : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- KeywordTranslateRelation Entity -->
+        <mxCell id="KeywordTranslateRelation" value="KeywordTranslateRelation&#xa;─────────────────────&#xa;id : Long&#xa;en, fr, de, it... : String&#xa;(22种语言列)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry x="180" y="160" width="170" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- TopSearchKeyword Entity -->
+        <mxCell id="TopSearchKeyword" value="TopSearchKeyword&#xa;─────────────────────&#xa;id : Long&#xa;domain : String&#xa;version : String&#xa;keyword : String&#xa;linkPath : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry y="260" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- TopCategoryKeyword Entity -->
+        <mxCell id="TopCategoryKeyword" value="TopCategoryKeyword&#xa;─────────────────────&#xa;id : Long&#xa;domain : String&#xa;version : String&#xa;keywords : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="keyword-group">
+          <mxGeometry x="180" y="260" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== Showroom Domain ==================== -->
+        <mxCell id="showroom-group" value="Showroom 聚合" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="420" y="480" width="520" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- ShowroomKeyword Entity -->
+        <mxCell id="ShowroomKeyword" value="ShowroomKeyword&#xa;─────────────────────&#xa;id : Long&#xa;domain : String&#xa;keyword : String&#xa;normalizeKeyword : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="showroom-group">
+          <mxGeometry y="30" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ShowroomKeywordTranslateRelation Entity -->
+        <mxCell id="ShowroomKeywordTranslateRelation" value="ShowroomKeyword&#xa;TranslateRelation&#xa;─────────────────────&#xa;id : Long&#xa;en, fr, de, it... : String&#xa;(22种语言列)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="showroom-group">
+          <mxGeometry x="180" y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ShowroomCateRelateKeyword Entity -->
+        <mxCell id="ShowroomCateRelateKeyword" value="ShowroomCateRelateKeyword&#xa;─────────────────────&#xa;id : Long&#xa;langCatId : String&#xa;    (→ CategoryLang)&#xa;cserpKeywords : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="showroom-group">
+          <mxGeometry x="350" y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- SearchResultCache Entity -->
+        <mxCell id="SearchResultCache" value="SearchResultCache&#xa;(Showroom/Cserp缓存)&#xa;─────────────────────&#xa;id : Long&#xa;urlPath : String&#xa;content : JSON&#xa;共50+分表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="showroom-group">
+          <mxGeometry x="180" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== Category Domain ==================== -->
+        <mxCell id="category-group" value="Category 聚合" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="980" y="80" width="350" height="360" as="geometry" />
+        </mxCell>
+
+        <!-- CategoryLang Entity -->
+        <mxCell id="CategoryLang" value="CategoryLang&#xa;─────────────────────&#xa;id : Long&#xa;version : String (→DataVersion)&#xa;language : String&#xa;categoryId : Long&#xa;categoryName : String&#xa;categoryType : String&#xa;breadCrumbs : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="category-group">
+          <mxGeometry y="30" width="170" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- FrontendCategory Entity -->
+        <mxCell id="FrontendCategory" value="FrontendCategory&#xa;─────────────────────&#xa;id : Long&#xa;categoryId : Long&#xa;parentFrontendId : Long&#xa;    (→ 自身,层级关系)&#xa;platform : String&#xa;lang : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="category-group">
+          <mxGeometry x="180" y="30" width="160" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- BsMixKeyword Entity -->
+        <mxCell id="BsMixKeyword" value="BsMixKeyword&#xa;─────────────────────&#xa;id : Long&#xa;slug : String&#xa;language : String&#xa;site : String&#xa;categoryId : Long&#xa;    (→ CategoryLang)&#xa;parentSlug : String&#xa;    (→ 自身,层级关系)&#xa;childrenSlugList : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="category-group">
+          <mxGeometry y="180" width="170" height="170" as="geometry" />
+        </mxCell>
+
+        <!-- Self-reference for FrontendCategory -->
+        <mxCell id="fc-self" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#d79b00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="FrontendCategory" target="FrontendCategory">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="200" />
+              <mxPoint x="1380" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fc-self-label" value="parentFrontendId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fc-self">
+          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
+            <mxPoint x="25" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Self-reference for BsMixKeyword -->
+        <mxCell id="bs-self" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#d79b00;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsMixKeyword" target="BsMixKeyword">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="345" />
+              <mxPoint x="960" y="396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-self-label" value="parentSlug" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bs-self">
+          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
+            <mxPoint x="-28" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================== Product/Company Keywords ==================== -->
+        <mxCell id="pc-group" value="Product/Company Keywords" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="480" width="350" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- ProductKeyword Entity -->
+        <mxCell id="ProductKeyword" value="ProductKeyword&#xa;─────────────────────&#xa;id : Long&#xa;pageId : String (→外部Product)&#xa;keyword : String&#xa;language, site : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="pc-group">
+          <mxGeometry y="30" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- CompanyKeyword Entity -->
+        <mxCell id="CompanyKeyword" value="CompanyKeyword&#xa;─────────────────────&#xa;id : Long&#xa;pageId : String (→外部Company)&#xa;keyword : String&#xa;language, site : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="pc-group">
+          <mxGeometry x="180" y="30" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== TrendProducts ==================== -->
+        <mxCell id="TrendProducts" value="TrendProducts&#xa;─────────────────────&#xa;id : Long&#xa;slugId : Long (→ KeywordSlug)&#xa;productName : String&#xa;platform : String&#xa;lang : String&#xa;country : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="720" width="170" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== Configuration Domain ==================== -->
+        <mxCell id="config-group" value="Configuration 聚合" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="980" y="660" width="350" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- ConfigSwitch Entity -->
+        <mxCell id="ConfigSwitch" value="ConfigSwitch&#xa;─────────────────────&#xa;id : Long&#xa;name : String&#xa;enabled : Boolean" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="config-group">
+          <mxGeometry y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- DataVersion Entity -->
+        <mxCell id="DataVersion" value="DataVersion&#xa;─────────────────────&#xa;id : Long&#xa;dataType : String&#xa;version : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="config-group">
+          <mxGeometry x="125" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- RobotsVersion Entity -->
+        <mxCell id="RobotsVersion" value="RobotsVersion&#xa;─────────────────────&#xa;id : Long&#xa;site : String&#xa;version : String&#xa;status : String" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="config-group">
+          <mxGeometry x="250" y="30" width="95" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== Relationships ==================== -->
+        
+        <!-- KeywordCpv → CategoryLang -->
+        <mxCell id="kc-cl" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="KeywordCpv" target="CategoryLang">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc-cl-label" value="categoryId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0066CC;" vertex="1" connectable="0" parent="kc-cl">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- BsMixKeyword → CategoryLang -->
+        <mxCell id="bs-cl" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="BsMixKeyword" target="CategoryLang">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="295" />
+              <mxPoint x="1065" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-cl-label" value="categoryId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0066CC;" vertex="1" connectable="0" parent="bs-cl">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint x="25" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ShowroomCateRelateKeyword → CategoryLang -->
+        <mxCell id="scr-cl" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="ShowroomCateRelateKeyword" target="CategoryLang">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="570" />
+              <mxPoint x="850" y="60" />
+              <mxPoint x="1065" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scr-cl-label" value="langCatId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0066CC;" vertex="1" connectable="0" parent="scr-cl">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint x="-80" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- TrendProducts → KeywordSlug -->
+        <mxCell id="tp-ks" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="TrendProducts" target="KeywordSlug">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="670" />
+              <mxPoint x="500" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-ks-label" value="slugId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0066CC;" vertex="1" connectable="0" parent="tp-ks">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint x="-25" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- CategoryLang → DataVersion -->
+        <mxCell id="cl-dv" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#0066CC;dashed=1;" edge="1" parent="1" source="CategoryLang" target="DataVersion">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="450" />
+              <mxPoint x="1165" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cl-dv-label" value="version" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0066CC;" vertex="1" connectable="0" parent="cl-dv">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================== Legend ==================== -->
+        <mxCell id="legend" value="图例说明" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="550" height="180" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend1" value="核心实体 (Core Entity)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="legend">
+          <mxGeometry y="25" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="基类/抽象实体 (Base Class)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="legend">
+          <mxGeometry y="55" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" value="分表实体 (Sharded Entity)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="legend">
+          <mxGeometry y="85" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend4" value="─────────▷  继承关系 (Inheritance)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="legend">
+          <mxGeometry x="190" y="25" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend5" value="- - - - - →  引用关系 (Reference)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0066CC;" vertex="1" parent="legend">
+          <mxGeometry x="190" y="55" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend6" value="─────→  自引用 (Self-Reference)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#d79b00;" vertex="1" parent="legend">
+          <mxGeometry x="190" y="85" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-note" value="注: 本系统采用水平分表策略，PageElements和LinkRelation按站点分为25+个表。&#xa;外键关系通过应用层维护，数据库中无显式外键约束。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="legend">
+          <mxGeometry y="120" width="540" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
