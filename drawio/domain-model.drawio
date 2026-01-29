@@ -1,0 +1,432 @@
+<mxfile host="app.diagrams.net" modified="2026-01-29T10:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="v-seo-domain-model" name="V-SEO领域模型">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- 关键词领域 - 标题 -->
+        <mxCell id="keyword-domain-title" value="关键词领域 (Keyword Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="300" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoKeywordPO -->
+        <mxCell id="SeoKeywordPO" value="SeoKeywordPO&#xa;(seo_keyword)&#xa;─────────────&#xa;· keyword (PK)&#xa;· taskName" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoKeywordExtendPO -->
+        <mxCell id="SeoKeywordExtendPO" value="SeoKeywordExtendPO&#xa;(seo_keyword_extend)&#xa;─────────────&#xa;· sourceKeyword (FK)&#xa;· keyword" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- KeywordTranslatePO -->
+        <mxCell id="KeywordTranslatePO" value="KeywordTranslatePO&#xa;(keyword_translate)&#xa;─────────────&#xa;· keyword (FK)&#xa;· enKeyword" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoKeywordCpvPO -->
+        <mxCell id="SeoKeywordCpvPO" value="SeoKeywordCpvPO&#xa;(seo_keyword_cpv)&#xa;─────────────&#xa;· keyword (FK)&#xa;· cateId (FK)&#xa;· cateIdPath" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoKeywordPO -> SeoKeywordExtendPO -->
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=ERmandOne;startFill=0" edge="1" parent="1" source="SeoKeywordPO" target="SeoKeywordExtendPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoKeywordPO -> KeywordTranslatePO -->
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmandOne;startFill=0" edge="1" parent="1" source="SeoKeywordPO" target="KeywordTranslatePO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoKeywordPO -> SeoKeywordCpvPO -->
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmandOne;startFill=0" edge="1" parent="1" source="SeoKeywordPO" target="SeoKeywordCpvPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 公司-产品领域 - 标题 -->
+        <mxCell id="company-domain-title" value="公司-产品领域 (Company/Product Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="350" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- CompanyPO -->
+        <mxCell id="CompanyPO" value="CompanyPO&#xa;(company)&#xa;─────────────&#xa;· companyUuid (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- ProductPO -->
+        <mxCell id="ProductPO" value="ProductPO&#xa;(product)&#xa;─────────────&#xa;· productId (PK)&#xa;· uuid&#xa;· companyUuid (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="840" y="60" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 CompanyPO -> ProductPO -->
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="CompanyPO" target="ProductPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- CompanyKeywordPO -->
+        <mxCell id="CompanyKeywordPO" value="CompanyKeywordPO&#xa;(company_keyword)&#xa;─────────────&#xa;· pageId (FK)&#xa;· keyword (FK)&#xa;· slug" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- ProductKeywordPO -->
+        <mxCell id="ProductKeywordPO" value="ProductKeywordPO&#xa;(product_keyword)&#xa;─────────────&#xa;· pageId (FK)&#xa;· keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- KeywordProductIdsPO -->
+        <mxCell id="KeywordProductIdsPO" value="KeywordProductIdsPO&#xa;(keywords_product_ids)&#xa;─────────────&#xa;· keyword (FK)&#xa;· productIds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="740" y="340" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 分类领域 - 标题 -->
+        <mxCell id="category-domain-title" value="分类领域 (Category Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="300" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoCpvOdpsPO -->
+        <mxCell id="SeoCpvOdpsPO" value="SeoCpvOdpsPO&#xa;(seo_cpv_odps)&#xa;─────────────&#xa;· catId (PK)&#xa;· parentId (FK self)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoCpvCompanyOdpsPO -->
+        <mxCell id="SeoCpvCompanyOdpsPO" value="SeoCpvCompanyOdpsPO&#xa;(seo_cpv_company_odps)&#xa;─────────────&#xa;· catId (FK)&#xa;· supplierId (FK)&#xa;· originalCompanyId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="180" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoCpvCompanyProductOdpsPO -->
+        <mxCell id="SeoCpvCompanyProductOdpsPO" value="SeoCpvCompanyProductPO&#xa;(seo_cpv_company_product)&#xa;─────────────&#xa;· supplierId (FK)&#xa;· productId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="180" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- CategoryLangPO -->
+        <mxCell id="CategoryLangPO" value="CategoryLangPO&#xa;(category_lang)&#xa;─────────────&#xa;· categoryId (FK)&#xa;· language" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoBsCpvMappingPO -->
+        <mxCell id="SeoBsCpvMappingPO" value="SeoBsCpvMappingPO&#xa;(bs_cpv_mapping)&#xa;─────────────&#xa;· cptId (FK)&#xa;· cpvIdList (FK list)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="220" y="540" width="180" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoCpvOdpsPO -> SeoCpvCompanyOdpsPO -->
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoCpvOdpsPO" target="SeoCpvCompanyOdpsPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoCpvCompanyOdpsPO -> SeoCpvCompanyProductOdpsPO -->
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoCpvCompanyOdpsPO" target="SeoCpvCompanyProductOdpsPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoKeywordCpvPO -> SeoCpvOdpsPO -->
+        <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;dashed=1" edge="1" parent="1" source="SeoKeywordCpvPO" target="SeoCpvOdpsPO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="360" />
+              <mxPoint x="120" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 着陆页领域 - 标题 -->
+        <mxCell id="landingpage-domain-title" value="着陆页领域 (Landing Page Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="20" width="300" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoLandingPagePO -->
+        <mxCell id="SeoLandingPagePO" value="SeoLandingPagePO&#xa;(seo_landing_page)&#xa;─────────────&#xa;· url (PK)&#xa;· categoryId (FK)&#xa;· site&#xa;· keyword" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1040" y="60" width="160" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- LandingPageKeywordPO -->
+        <mxCell id="LandingPageKeywordPO" value="LandingPageKeywordPO&#xa;(landing_page_keywords)&#xa;─────────────&#xa;· keyword (FK)&#xa;· language" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1040" y="220" width="180" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoSitePageConfigPO -->
+        <mxCell id="SeoSitePageConfigPO" value="SeoSitePageConfigPO&#xa;(seo_site_page_config)&#xa;─────────────&#xa;· site&#xa;· language&#xa;· lpType" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1240" y="60" width="160" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoClickPagePO -->
+        <mxCell id="SeoClickPagePO" value="SeoClickPagePO&#xa;(seo_click_page)&#xa;─────────────&#xa;· url (FK)&#xa;· site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1240" y="220" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoClickPageHtmlPO -->
+        <mxCell id="SeoClickPageHtmlPO" value="SeoClickPageHtmlPO&#xa;(seo_click_page_html)&#xa;─────────────&#xa;· url (FK)&#xa;· site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1240" y="360" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoClickPagePO -> SeoClickPageHtmlPO -->
+        <mxCell id="edge8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoClickPagePO" target="SeoClickPageHtmlPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 内链领域 - 标题 -->
+        <mxCell id="internallink-domain-title" value="内链领域 (Internal Link Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="300" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoInternalLinkRelationPO -->
+        <mxCell id="SeoInternalLinkRelationPO" value="SeoInternalLinkRelationPO&#xa;(seo_internal_link_relation)&#xa;─────────────&#xa;· landingPageUrl (FK)&#xa;· internalLinkUrl&#xa;· keyword (FK)&#xa;· site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="200" height="130" as="geometry" />
+        </mxCell>
+        
+        <!-- BottomLinkRelationPO -->
+        <mxCell id="BottomLinkRelationPO" value="BottomLinkRelationPO&#xa;(bottom_link_relation)&#xa;─────────────&#xa;· domain&#xa;· pagePath (FK)&#xa;· internalLinkPath" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="260" y="720" width="180" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- KeywordInternalLinkPO -->
+        <mxCell id="KeywordInternalLinkPO" value="KeywordInternalLinkPO&#xa;(keyword_internal_link)&#xa;─────────────&#xa;· keyword (FK)&#xa;· relatedKeywords&#xa;· language" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="460" y="720" width="180" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- InnerChainTablePO -->
+        <mxCell id="InnerChainTablePO" value="InnerChainTablePO&#xa;(inner_chain_table)&#xa;─────────────&#xa;· keyword (FK)&#xa;· relateKeywords&#xa;· site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="160" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- RelateKeywordPO -->
+        <mxCell id="RelateKeywordPO" value="RelateKeywordPO&#xa;(relate_keyword)&#xa;─────────────&#xa;· keyword (FK)&#xa;· relateKeywords" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="220" y="880" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SEO运营领域 - 标题 -->
+        <mxCell id="seo-ops-domain-title" value="SEO运营领域 (SEO Ops Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="300" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoOpsUrlBatchPO -->
+        <mxCell id="SeoOpsUrlBatchPO" value="SeoOpsUrlBatchPO&#xa;(seo_ops_url_batch)&#xa;─────────────&#xa;· id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoOpsUrlUploadPO -->
+        <mxCell id="SeoOpsUrlUploadPO" value="SeoOpsUrlUploadPO&#xa;(seo_ops_url_upload)&#xa;─────────────&#xa;· urlBatchId (FK)&#xa;· site&#xa;· url&#xa;· urlType" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoOpsUrlSelectionPO -->
+        <mxCell id="SeoOpsUrlSelectionPO" value="SeoOpsUrlSelectionPO&#xa;(seo_ops_url_selection)&#xa;─────────────&#xa;· id (PK)&#xa;· urlBatchId (FK opt)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="180" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoOpsContentModificationPO -->
+        <mxCell id="SeoOpsContentModificationPO" value="SeoOpsContentModificationPO&#xa;(seo_ops_content_modification)&#xa;─────────────&#xa;· urlSelectionId (FK)&#xa;· id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="880" y="660" width="220" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoOpsGenerationResultPO -->
+        <mxCell id="SeoOpsGenerationResultPO" value="SeoOpsGenerationResultPO&#xa;(seo_ops_generation_result)&#xa;─────────────&#xa;· urlSelectionId (FK)&#xa;· contentModificationId (FK)&#xa;· url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1120" y="520" width="220" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoOpsModificationRecordPO -->
+        <mxCell id="SeoOpsModificationRecordPO" value="SeoOpsModificationRecordPO&#xa;(seo_ops_modification_record)&#xa;─────────────&#xa;· urlSelectionId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1120" y="680" width="220" height="90" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoOpsUrlBatchPO -> SeoOpsUrlUploadPO -->
+        <mxCell id="edge9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoOpsUrlBatchPO" target="SeoOpsUrlUploadPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoOpsUrlBatchPO -> SeoOpsUrlSelectionPO -->
+        <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;dashed=1" edge="1" parent="1" source="SeoOpsUrlBatchPO" target="SeoOpsUrlSelectionPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoOpsUrlSelectionPO -> SeoOpsContentModificationPO -->
+        <mxCell id="edge11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoOpsUrlSelectionPO" target="SeoOpsContentModificationPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoOpsUrlSelectionPO -> SeoOpsGenerationResultPO -->
+        <mxCell id="edge12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoOpsUrlSelectionPO" target="SeoOpsGenerationResultPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoOpsContentModificationPO -> SeoOpsGenerationResultPO -->
+        <mxCell id="edge13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoOpsContentModificationPO" target="SeoOpsGenerationResultPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoOpsUrlSelectionPO -> SeoOpsModificationRecordPO -->
+        <mxCell id="edge14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoOpsUrlSelectionPO" target="SeoOpsModificationRecordPO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="570" />
+              <mxPoint x="1070" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- AI批量处理领域 - 标题 -->
+        <mxCell id="ai-batch-domain-title" value="AI批量处理领域 (AI Batch Processing Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1020" width="380" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SiteSeoLandingPageExtractedKeywordDfPO -->
+        <mxCell id="SiteSeoLpExtractedKwPO" value="SiteSeoLpExtractedKeywordDfPO&#xa;(site_seo_lp_extracted_kw)&#xa;─────────────&#xa;· id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="240" height="90" as="geometry" />
+        </mxCell>
+        
+        <!-- SiteSeoLpKeywordWithAIPO -->
+        <mxCell id="SiteSeoLpKeywordWithAIPO" value="SiteSeoLpKeywordWithAIPO&#xa;(site_seo_lp_keyword_with_ai)&#xa;─────────────&#xa;· id (PK)&#xa;· oriId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="300" y="1060" width="220" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SiteSeoLpKeywordWithAIOutputPO -->
+        <mxCell id="SiteSeoLpKeywordWithAIOutputPO" value="SiteSeoLpKeywordWithAIOutputPO&#xa;(site_seo_lp_kw_ai_output)&#xa;─────────────&#xa;· id (PK)&#xa;· inputId (FK)&#xa;· variantBatchId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="540" y="1060" width="240" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- SiteSeoVariantTdh -->
+        <mxCell id="SiteSeoVariantTdh" value="SiteSeoVariantTdh&#xa;(site_seo_variant_td_head)&#xa;─────────────&#xa;· inputId (FK)&#xa;· variantBatchId (FK)&#xa;· tdhBatchId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="800" y="1060" width="200" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- SiteSeoLpBatchTaskPO -->
+        <mxCell id="SiteSeoLpBatchTaskPO" value="SiteSeoLpBatchTaskPO&#xa;(site_seo_lp_batch_task)&#xa;─────────────&#xa;· batchId (PK)&#xa;· inputFileId&#xa;· outputFileId&#xa;· errorFileId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="540" y="1200" width="200" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SiteSeoLpExtractedKwPO -> SiteSeoLpKeywordWithAIPO -->
+        <mxCell id="edge15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SiteSeoLpExtractedKwPO" target="SiteSeoLpKeywordWithAIPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SiteSeoLpKeywordWithAIPO -> SiteSeoLpKeywordWithAIOutputPO -->
+        <mxCell id="edge16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SiteSeoLpKeywordWithAIPO" target="SiteSeoLpKeywordWithAIOutputPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SiteSeoLpKeywordWithAIOutputPO -> SiteSeoVariantTdh -->
+        <mxCell id="edge17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SiteSeoLpKeywordWithAIOutputPO" target="SiteSeoVariantTdh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SiteSeoLpKeywordWithAIOutputPO -> SiteSeoLpBatchTaskPO -->
+        <mxCell id="edge18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;dashed=1" edge="1" parent="1" source="SiteSeoLpKeywordWithAIOutputPO" target="SiteSeoLpBatchTaskPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 数据分析领域 - 标题 -->
+        <mxCell id="data-domain-title" value="数据分析领域 (Data/Analytics Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="800" width="320" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoKeywordAnalyzePO -->
+        <mxCell id="SeoKeywordAnalyzePO" value="SeoKeywordAnalyzePO&#xa;(seo_keyword_analyze)&#xa;─────────────&#xa;· site&#xa;· keyword (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1040" y="840" width="180" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoLandingPageScorePO -->
+        <mxCell id="SeoLandingPageScorePO" value="SeoLandingPageScorePO&#xa;(seo_landing_page_score)&#xa;─────────────&#xa;· site&#xa;· keyword (FK)&#xa;· url (FK)&#xa;· type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1240" y="840" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- KeywordRankingPO -->
+        <mxCell id="KeywordRankingPO" value="KeywordRankingPO&#xa;(keyword_ranking)&#xa;─────────────&#xa;· keyword (FK)&#xa;· site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1040" y="980" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoDigSummaryPO -->
+        <mxCell id="SeoDigSummaryPO" value="SeoDigSummaryPO&#xa;(seo_dig_summary)&#xa;─────────────&#xa;· id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1220" y="980" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoDigUrlPO -->
+        <mxCell id="SeoDigUrlPO" value="SeoDigUrlPO&#xa;(seo_dig_url)&#xa;─────────────&#xa;· summaryId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1100" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 SeoDigSummaryPO -> SeoDigUrlPO -->
+        <mxCell id="edge19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="SeoDigSummaryPO" target="SeoDigUrlPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 任务领域 - 标题 -->
+        <mxCell id="task-domain-title" value="任务领域 (Task Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1350" width="250" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoDynamicTaskPO -->
+        <mxCell id="SeoDynamicTaskPO" value="SeoDynamicTaskPO&#xa;(seo_dynamic_task)&#xa;─────────────&#xa;· id (PK)&#xa;· taskBean&#xa;· site&#xa;· creator&#xa;· modifier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="40" y="1390" width="160" height="130" as="geometry" />
+        </mxCell>
+        
+        <!-- SeoSitemapTaskInstancePO -->
+        <mxCell id="SeoSitemapTaskInstancePO" value="SeoSitemapTaskInstancePO&#xa;(seo_sitemap_task_instance)&#xa;─────────────&#xa;· taskId (FK)&#xa;· site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="240" y="1390" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 趋势数据领域 - 标题 -->
+        <mxCell id="trends-domain-title" value="趋势数据领域 (Trends Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="1350" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- KeywordSlug -->
+        <mxCell id="KeywordSlug" value="KeywordSlug&#xa;(keyword_slug)&#xa;─────────────&#xa;· id (PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="500" y="1390" width="140" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- TrendProductsPO -->
+        <mxCell id="TrendProductsPO" value="TrendProductsPO&#xa;(trend_products)&#xa;─────────────&#xa;· slugId (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="680" y="1390" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- TrendsKeywordPO -->
+        <mxCell id="TrendsKeywordPO" value="TrendsKeywordPO&#xa;(trends_keyword)&#xa;─────────────&#xa;· keyword" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="500" y="1500" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- 关系线 KeywordSlug -> TrendProductsPO -->
+        <mxCell id="edge20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0" edge="1" parent="1" source="KeywordSlug" target="TrendProductsPO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 缓存领域 - 标题 -->
+        <mxCell id="cache-domain-title" value="缓存领域 (Cache Domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="1350" width="250" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- CacheUrlPO -->
+        <mxCell id="CacheUrlPO" value="CacheUrlPO&#xa;(cache_urls)&#xa;─────────────&#xa;· url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="900" y="1390" width="140" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- PageAiContentInfoPO -->
+        <mxCell id="PageAiContentInfoPO" value="PageAiContentInfoPO&#xa;(page_ai_content_info)&#xa;─────────────&#xa;· companyUuid (FK)&#xa;· productUuid (FK)&#xa;· taskId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1390" width="180" height="110" as="geometry" />
+        </mxCell>
+        
+        <!-- 图例 -->
+        <mxCell id="legend-title" value="图例 (Legend)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1350" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-pk" value="PK = 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1380" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-fk" value="FK = 外键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1400" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-1-n" value="─── 一对多关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1420" width="120" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-opt" value="- - - 可选关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1440" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
