@@ -38,7 +38,7 @@
           <mxGeometry height="60" width="140" x="568" y="274" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" value="Crawler Detect - Based on Botify" vertex="1">
-          <mxGeometry height="30" width="220" x="458" y="394" as="geometry" />
+          <mxGeometry height="30" width="393" x="274" y="394" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
