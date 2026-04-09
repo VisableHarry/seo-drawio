@@ -4,15 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5ALVKOUIEtEu8R-_b4qw-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Tech SEO" vertex="1">
-          <mxGeometry height="80" width="210" x="110" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="5ALVKOUIEtEu8R-_b4qw-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Content SEO" vertex="1">
-          <mxGeometry height="80" width="210" x="320" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="5ALVKOUIEtEu8R-_b4qw-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Problem Detect" vertex="1">
-          <mxGeometry height="60" width="120" x="110" y="240" as="geometry" />
-        </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Tech SEO" vertex="1">
           <mxGeometry height="60" width="280" x="80" y="360" as="geometry" />
         </mxCell>
