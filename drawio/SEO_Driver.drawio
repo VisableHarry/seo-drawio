@@ -8,7 +8,7 @@
           <mxGeometry height="60" width="280" x="80" y="360" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Content SEO" vertex="1">
-          <mxGeometry height="60" width="200" x="360" y="360" as="geometry" />
+          <mxGeometry height="60" width="240" x="360" y="360" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Problem Detect" vertex="1">
           <mxGeometry height="60" width="110" x="80" y="420" as="geometry" />
@@ -17,10 +17,10 @@
           <mxGeometry height="60" width="110" x="190" y="420" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Opptunity find" vertex="1">
-          <mxGeometry height="60" width="120" x="300" y="420" as="geometry" />
+          <mxGeometry height="60" width="160" x="300" y="420" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Defensive SEO Optimize" vertex="1">
-          <mxGeometry height="60" width="340" x="80" y="480" as="geometry" />
+          <mxGeometry height="30" width="340" x="80" y="480" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="Driver" vertex="1">
           <mxGeometry height="30" width="60" x="-10" y="380" as="geometry" />
@@ -32,10 +32,13 @@
           <mxGeometry height="30" width="100" x="-50" y="490" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EP Showroom Index Speed Up" vertex="1">
-          <mxGeometry height="60" width="180" x="300" y="540" as="geometry" />
+          <mxGeometry height="30" width="180" x="330" y="510" as="geometry" />
         </mxCell>
         <mxCell id="5ALVKOUIEtEu8R-_b4qw-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="New features/Actions" vertex="1">
-          <mxGeometry height="60" width="140" x="420" y="420" as="geometry" />
+          <mxGeometry height="60" width="140" x="460" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5ALVKOUIEtEu8R-_b4qw-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Crawler Detect - Based on Botify" vertex="1">
+          <mxGeometry height="30" width="220" x="350" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
