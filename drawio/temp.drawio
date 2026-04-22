@@ -360,6 +360,12 @@
         <mxCell id="9dEHAANFb_9npNu5pmhH-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="Other" vertex="1">
           <mxGeometry height="40" width="80" x="1000" y="1060" as="geometry" />
         </mxCell>
+        <mxCell id="9dEHAANFb_9npNu5pmhH-111" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="359.5" y="1010" as="sourcePoint" />
+            <mxPoint x="359.5" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
