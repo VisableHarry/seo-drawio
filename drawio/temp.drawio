@@ -319,7 +319,7 @@
           <mxGeometry height="40" width="220" x="80" y="1160" as="geometry" />
         </mxCell>
         <mxCell id="9dEHAANFb_9npNu5pmhH-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Router: Purchase Service" vertex="1">
-          <mxGeometry height="30" width="170" x="960" y="1169" as="geometry" />
+          <mxGeometry height="30" width="150" x="-190" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="9dEHAANFb_9npNu5pmhH-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Request" vertex="1">
           <mxGeometry height="40" width="80" x="320" y="1040" as="geometry" />
