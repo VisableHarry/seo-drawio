@@ -157,8 +157,10 @@
         <mxCell id="9dEHAANFb_9npNu5pmhH-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Redash Filter &amp;amp; Join" vertex="1">
           <mxGeometry height="40" width="220" x="80" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="9dEHAANFb_9npNu5pmhH-40" edge="1" parent="1" source="9dEHAANFb_9npNu5pmhH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.295;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="9dEHAANFb_9npNu5pmhH-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9dEHAANFb_9npNu5pmhH-40" edge="1" parent="1" source="9dEHAANFb_9npNu5pmhH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="9dEHAANFb_9npNu5pmhH-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9dEHAANFb_9npNu5pmhH-37" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
