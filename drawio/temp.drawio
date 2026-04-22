@@ -181,7 +181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9dEHAANFb_9npNu5pmhH-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="Data Equiped&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;with all fields?&lt;/span&gt;&lt;div&gt;Can join with gclid?&lt;/div&gt;&lt;div&gt;Can send offline event?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="-260" y="440" as="geometry" />
+          <mxGeometry height="80" width="180" x="-220" y="440" as="geometry" />
         </mxCell>
         <mxCell id="9dEHAANFb_9npNu5pmhH-50" edge="1" parent="1" source="9dEHAANFb_9npNu5pmhH-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" target="9dEHAANFb_9npNu5pmhH-45">
           <mxGeometry relative="1" as="geometry" />
