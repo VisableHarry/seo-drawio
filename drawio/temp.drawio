@@ -171,6 +171,9 @@
         <mxCell id="9dEHAANFb_9npNu5pmhH-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="APP" vertex="1">
           <mxGeometry height="20" width="700" x="80" y="450" as="geometry" />
         </mxCell>
+        <mxCell id="9dEHAANFb_9npNu5pmhH-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API Adapter" vertex="1">
+          <mxGeometry height="40" width="800" x="80" y="720" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
