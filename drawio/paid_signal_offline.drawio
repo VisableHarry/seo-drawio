@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="qYXcDUSgB2fVjih1zi0r">
-    <mxGraphModel dx="1414" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2241" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QlAXcGHhuTlwJjGRX-wu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data Engineer" vertex="1">
-          <mxGeometry height="30" width="110" x="70" y="50" as="geometry" />
+          <mxGeometry height="30" width="110" x="45" y="50" as="geometry" />
         </mxCell>
         <mxCell id="QlAXcGHhuTlwJjGRX-wu-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Arise" vertex="1">
           <mxGeometry height="30" width="110" x="305" y="50" as="geometry" />
@@ -51,6 +51,27 @@
         </mxCell>
         <mxCell id="QlAXcGHhuTlwJjGRX-wu-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Meta CAPI" vertex="1">
           <mxGeometry height="30" width="115" x="480" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Web Analytics" vertex="1">
+          <mxGeometry height="30" width="110" x="-110" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-23" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-24" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Condition &amp;amp; Table for Event1" vertex="1">
+          <mxGeometry height="30" width="115" x="-115" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-25" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-26" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Condition &amp;amp; Table for Event2" vertex="1">
+          <mxGeometry height="30" width="115" x="-115" y="203" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
