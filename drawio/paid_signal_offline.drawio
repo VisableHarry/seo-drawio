@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="qYXcDUSgB2fVjih1zi0r">
-    <mxGraphModel>
+    <mxGraphModel dx="1414" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data Engineer" vertex="1">
+          <mxGeometry height="30" width="110" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Arise" vertex="1">
+          <mxGeometry height="30" width="110" x="305" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Google/Meta" vertex="1">
+          <mxGeometry height="30" width="110" x="480" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Google Event Data" vertex="1">
+          <mxGeometry height="30" width="115" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Meta Event Data" vertex="1">
+          <mxGeometry height="30" width="115" x="40" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-13" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Aliyun&lt;div&gt;OSS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="60" x="200" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-10" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=23.75;entryPerimeter=0;" target="QlAXcGHhuTlwJjGRX-wu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-11" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlAXcGHhuTlwJjGRX-wu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-18" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-19" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QlAXcGHhuTlwJjGRX-wu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Daily Task" vertex="1">
+          <mxGeometry height="30" width="115" x="299" y="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-14" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Monitor" vertex="1">
+          <mxGeometry height="65" width="60" x="330" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-15" edge="1" parent="1" source="QlAXcGHhuTlwJjGRX-wu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlAXcGHhuTlwJjGRX-wu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Google OCI" vertex="1">
+          <mxGeometry height="30" width="115" x="480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QlAXcGHhuTlwJjGRX-wu-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Meta CAPI" vertex="1">
+          <mxGeometry height="30" width="115" x="480" y="203" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
